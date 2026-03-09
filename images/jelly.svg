@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+ <!-- 背景 -->
+ <rect width="200" height="150" fill="#FFF0F5"/>
+ <ellipse cx="100" cy="140" rx="80" ry="10" fill="#FFC0CB"/>
+
+ <!-- 果冻碟子 -->
+ <ellipse cx="100" cy="125" rx="60" ry="15" fill="#E0E0E0"/>
+ <ellipse cx="100" cy="120" rx="55" ry="12" fill="#F5F5F5"/>
+ <ellipse cx="100" cy="118" rx="50" ry="10" fill="#E8E8E8"/>
+
+ <!-- 果冻主体 -->
+ <ellipse cx="100" cy="75" rx="50" ry="40" fill="#FF69B4"/>
+ <ellipse cx="100" cy="70" rx="45" ry="35" fill="#FF8CC3"/>
+
+ <!-- 果冻顶部 -->
+ <ellipse cx="100" cy="40" rx="35" ry="15" fill="#FF9BCF"/>
+ <ellipse cx="100" cy="35" rx="30" ry="12" fill="#FFA8D3"/>
+
+ <!-- 果冻波纹 -->
+ <path d="M60,60 Q80,50 100,60 Q120,70 140,60" stroke="#FF69B4" stroke-width="3" fill="none" opacity="0.5"/>
+ <path d="M65,80 Q85,70 105,80 Q125,90 135,80" stroke="#FF69B4" stroke-width="3" fill="none" opacity="0.5"/>
+ <path d="M70,100 Q90,90 110,100 Q130,110 135,100" stroke="#FF69B4" stroke-width="3" fill="none" opacity="0.5"/>
+
+ <!-- 果冻高光 -->
+ <ellipse cx="80" cy="50" rx="12" ry="8" fill="white" opacity="0.4"/>
+ <ellipse cx="85" cy="45" rx="8" ry="5" fill="white" opacity="0.6"/>
+
+ <!-- 小叉子 -->
+ <rect x="155" y="50" width="4" height="60" rx="2" fill="#C0C0C0"/>
+ <path d="M152,50 L157,55 L162,50" stroke="#C0C0C0" stroke-width="3" fill="none"/>
+ <rect x="155" y="110" width="4" height="15" rx="2" fill="#C0C0C0"/>
+
+ <!-- 果冻抖动效果线 -->
+ <path d="M50,70 L45,65" stroke="#FF1493" stroke-width="2"/>
+ <path d="M150,70 L155,65" stroke="#FF1493" stroke-width="2"/>
+</svg>

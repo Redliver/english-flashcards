@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+ <!-- 背景 - 雨后蓝天 -->
+ <rect width="200" height="150" fill="#87CEEB"/>
+
+ <!-- 云朵 -->
+ <ellipse cx="30" cy="25" rx="20" ry="12" fill="white" opacity="0.9"/>
+ <ellipse cx="50" cy="20" rx="18" ry="10" fill="white" opacity="0.9"/>
+ <ellipse cx="170" cy="30" rx="25" ry="15" fill="white" opacity="0.9"/>
+ <ellipse cx="150" cy="25" rx="20" ry="12" fill="white" opacity="0.9"/>
+
+ <!-- 彩虹 - 外到内 -->
+ <path d="M20,150 Q100,20 180,150" stroke="#FF0000" stroke-width="12" fill="none"/>
+ <path d="M25,150 Q100,30 175,150" stroke="#FF7F00" stroke-width="10" fill="none"/>
+ <path d="M30,150 Q100,40 170,150" stroke="#FFFF00" stroke-width="10" fill="none"/>
+ <path d="M35,150 Q100,50 165,150" stroke="#00FF00" stroke-width="10" fill="none"/>
+ <path d="M40,150 Q100,60 160,150" stroke="#0000FF" stroke-width="10" fill="none"/>
+ <path d="M45,150 Q100,70 155,150" stroke="#4B0082" stroke-width="10" fill="none"/>
+ <path d="M50,150 Q100,80 150,150" stroke="#9400D3" stroke-width="10" fill="none"/>
+
+ <!-- 彩虹底部 -->
+ <ellipse cx="100" cy="150" rx="70" ry="10" fill="#87CEEB"/>
+</svg>

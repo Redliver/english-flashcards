@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#FFD700"/>
+  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#CD853F"/>
+
+  <!-- 狮身 - 鬃毛 -->
+  <circle cx="100" cy="60" r="50" fill="#DAA520"/>
+  <circle cx="70" cy="50" r="25" fill="#DAA520"/>
+  <circle cx="130" cy="50" r="25" fill="#DAA520"/>
+  <circle cx="55" cy="75" r="20" fill="#DAA520"/>
+  <circle cx="145" cy="75" r="20" fill="#DAA520"/>
+  <circle cx="80" cy="90" r="18" fill="#DAA520"/>
+  <circle cx="120" cy="90" r="18" fill="#DAA520"/>
+
+  <!-- 狮头 -->
+  <circle cx="100" cy="65" r="32" fill="#F4A460"/>
+
+  <!-- 狮耳 -->
+  <circle cx="72" cy="40" r="10" fill="#F4A460"/>
+  <circle cx="128" cy="40" r="10" fill="#F4A460"/>
+
+  <!-- 狮眼 -->
+  <circle cx="85" cy="60" r="7" fill="white"/>
+  <circle cx="115" cy="60" r="7" fill="white"/>
+  <circle cx="87" cy="60" r="4" fill="#333"/>
+  <circle cx="117" cy="60" r="4" fill="#333"/>
+  <circle cx="88" cy="59" r="1.5" fill="white"/>
+  <circle cx="118" cy="59" r="1.5" fill="white"/>
+
+  <!-- 狮鼻 -->
+  <ellipse cx="100" cy="75" rx="12" ry="10" fill="#8B4513"/>
+
+  <!-- 狮嘴 -->
+  <path d="M88,85 Q100,95 112,85" stroke="#8B4513" stroke-width="3" fill="none"/>
+
+  <!-- 狮牙 -->
+  <path d="M92,85 L94,92 L96,85" fill="white"/>
+  <path d="M104,85 L106,92 L108,85" fill="white"/>
+
+  <!-- 狮身 -->
+  <ellipse cx="100" cy="115" rx="35" ry="25" fill="#F4A460"/>
+
+  <!-- 狮腿 -->
+  <rect x="65" y="125" width="15" height="20" rx="6" fill="#F4A460"/>
+  <rect x="85" y="125" width="15" height="20" rx="6" fill="#F4A460"/>
+  <rect x="105" y="125" width="15" height="20" rx="6" fill="#F4A460"/>
+  <rect x="125" y="125" width="15" height="20" rx="6" fill="#F4A460"/>
+
+  <!-- 狮爪 -->
+  <rect x="65" y="140" width="15" height="8" rx="3" fill="#8B4513"/>
+  <rect x="85" y="140" width="15" height="8" rx="3" fill="#8B4513"/>
+  <rect x="105" y="140" width="15" height="8" rx="3" fill="#8B4513"/>
+  <rect x="125" y="140" width="15" height="8" rx="3" fill="#8B4513"/>
+
+  <!-- 狮尾 -->
+  <path d="M135,115 Q160,110 165,85" stroke="#F4A460" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="165" cy="82" r="8" fill="#8B4513"/>
+</svg>

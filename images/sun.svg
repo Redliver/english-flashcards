@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+ <!-- 背景 - 蓝天 -->
+ <rect width="200" height="150" fill="#87CEEB"/>
+
+ <!-- 太阳光晕 -->
+ <circle cx="100" cy="75" r="45" fill="#FFD700" opacity="0.3"/>
+
+ <!-- 太阳主体 -->
+ <circle cx="100" cy="75" r="35" fill="#FFD700"/>
+ <circle cx="90" cy="65" r="10" fill="#FFEC8B" opacity="0.6"/>
+ <circle cx="110" cy="70" r="8" fill="#FFEC8B" opacity="0.5"/>
+
+ <!-- 太阳光芒 -->
+ <line x1="100" y1="20" x2="100" y2="5" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="100" y1="130" x2="100" y2="145" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="45" y1="75" x2="30" y2="75" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="155" y1="75" x2="170" y2="75" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="60" y1="35" x2="50" y2="25" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="140" y1="35" x2="150" y2="25" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="60" y1="115" x2="50" y2="125" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+ <line x1="140" y1="115" x2="150" y2="125" stroke="#FFD700" stroke-width="6" stroke-linecap="round"/>
+
+ <!-- 太阳微笑 -->
+ <path d="M85,80 Q100,95 115,80" stroke="#FF8C00" stroke-width="3" fill="none"/>
+ <circle cx="90" cy="72" r="4" fill="#FF8C00"/>
+ <circle cx="110" cy="72" r="4" fill="#FF8C00"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+ <!-- 背景 - 城堡 -->
+ <rect width="200" height="150" fill="#9370DB"/>
+
+ <!-- 城堡塔 -->
+ <rect x="20" y="60" width="40" height="90" fill="#8B4513"/>
+ <rect x="140" y="60" width="40" height="90" fill="#8B4513"/>
+ <rect x="60" y="80" width="80" height="70" fill="#A0522D"/>
+
+ <!-- 城堡窗户 -->
+ <rect x="30" y="80" width="15" height="20" rx="2" fill="#FFD700"/>
+ <rect x="155" y="80" width="15" height="20" rx="2" fill="#FFD700"/>
+ <rect x="80" y="95" width="40" height="30" rx="5" fill="#FFD700"/>
+
+ <!-- 城堡塔尖 -->
+ <polygon points="20,60 40,30 60,60" fill="#DC143C"/>
+ <polygon points="140,60 160,30 180,60" fill="#DC143C"/>
+
+ <!-- 女王身体 -->
+ <ellipse cx="100" cy="130" rx="25" ry="15" fill="#4169E1"/>
+
+ <!-- 女王裙子 -->
+ <path d="M75,130 Q60,150 100,150 Q140,150 125,130" fill="#4169E1"/>
+ <path d="M80,130 Q70,145 100,145 Q130,145 120,130" fill="#5B8DEE"/>
+
+ <!-- 女王头 -->
+ <circle cx="100" cy="100" r="18" fill="#FFDAB9"/>
+
+ <!-- 女王头发 -->
+ <ellipse cx="82" cy="100" rx="15" ry="20" fill="#FFD700"/>
+ <ellipse cx="118" cy="100" rx="15" ry="20" fill="#FFD700"/>
+ <circle cx="100" cy="85" r="15" fill="#FFD700"/>
+
+ <!-- 女王王冠 -->
+ <polygon points="80,75 85,60 95,70 100,55 105,70 115,60 120,75" fill="#FFD700"/>
+ <circle cx="100" cy="58" r="5" fill="#DC143C"/>
+ <circle cx="85" cy="65" r="3" fill="#DC143C"/>
+ <circle cx="115" cy="65" r="3" fill="#DC143C"/>
+
+ <!-- 女王眼睛 -->
+ <circle cx="93" cy="98" r="3" fill="#333"/>
+ <circle cx="107" cy="98" r="3" fill="#333"/>
+ <circle cx="94" cy="97" r="1" fill="white"/>
+ <circle cx="108" cy="97" r="1" fill="white"/>
+
+ <!-- 女王微笑 -->
+ <path d="M94,108 Q100,113 106,108" stroke="#DC143C" stroke-width="2" fill="none"/>
+
+ <!-- 女王腮红 -->
+ <ellipse cx="85" cy="105" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+ <ellipse cx="115" cy="105" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+</svg>

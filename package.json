@@ -1,0 +1,16 @@
+{
+  "name": "to-do-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@echristian/edge-tts": "^0.0.14",
+    "edge-tts-nodejs": "^1.0.6"
+  }
+}

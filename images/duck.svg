@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#90EE90"/>
+
+  <!-- 鸭子身体 -->
+  <ellipse cx="100" cy="95" rx="45" ry="35" fill="#FFD700"/>
+
+  <!-- 鸭子翅膀 -->
+  <ellipse cx="85" cy="95" rx="20" ry="15" fill="#FFA500"/>
+
+  <!-- 鸭子头部 -->
+  <circle cx="135" cy="60" r="28" fill="#FFD700"/>
+
+  <!-- 鸭子眼睛 -->
+  <circle cx="145" cy="55" r="6" fill="white"/>
+  <circle cx="147" cy="55" r="3" fill="black"/>
+  <circle cx="148" cy="54" r="1" fill="white"/>
+
+  <!-- 鸭子嘴巴 -->
+  <polygon points="155,60 180,55 180,65 155,70" fill="#FF8C00"/>
+
+  <!-- 鸭子腿 -->
+  <line x1="85" y1="125" x2="80" y2="145" stroke="#FF8C00" stroke-width="4" stroke-linecap="round"/>
+  <line x1="115" y1="125" x2="120" y2="145" stroke="#FF8C00" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 鸭子脚掌 -->
+  <polygon points="75,145 85,145 80,150" fill="#FF8C00"/>
+  <polygon points="115,145 125,145 120,150" fill="#FF8C00"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#DEB887"/>
+  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#228B22"/>
+
+  <!-- 马身体 -->
+  <ellipse cx="100" cy="95" rx="55" ry="35" fill="#8B4513"/>
+
+  <!-- 马脖子 -->
+  <path d="M140,70 Q160,50 155,30 L175,35 Q180,60 155,85 Z" fill="#8B4513"/>
+
+  <!-- 马头 -->
+  <ellipse cx="165" cy="30" rx="25" ry="18" fill="#8B4513"/>
+
+  <!-- 马耳朵 -->
+  <path d="M150,15 L145,0 L160,10 Z" fill="#8B4513"/>
+  <path d="M175,15 L185,0 170,10 Z" fill="#8B4513"/>
+
+  <!-- 马鬃毛 -->
+  <path d="M145,20 Q140,40 145,60" stroke="#5D3A1A" stroke-width="8" fill="none"/>
+  <path d="M155,18 Q150,40 155,60" stroke="#5D3A1A" stroke-width="8" fill="none"/>
+  <path d="M165,20 Q160,40 165,55" stroke="#5D3A1A" stroke-width="8" fill="none"/>
+
+  <!-- 马眼睛 -->
+  <circle cx="175" cy="25" r="5" fill="black"/>
+  <circle cx="177" cy="24" r="1.5" fill="white"/>
+
+  <!-- 马鼻子 -->
+  <ellipse cx="185" cy="38" rx="8" ry="6" fill="#5D3A1A"/>
+
+  <!-- 马嘴巴 -->
+  <path d="M180,45 Q185,48 182,50" stroke="#5D3A1A" stroke-width="2" fill="none"/>
+
+  <!-- 马腿 -->
+  <rect x="55" y="115" width="12" height="30" rx="5" fill="#8B4513"/>
+  <rect x="75" y="115" width="12" height="30" rx="5" fill="#8B4513"/>
+  <rect x="115" y="115" width="12" height="30" rx="5" fill="#8B4513"/>
+  <rect x="135" y="115" width="12" height="30" rx="5" fill="#8B4513"/>
+
+  <!-- 马蹄子 -->
+  <rect x="55" y="140" width="12" height="8" rx="3" fill="#333"/>
+  <rect x="75" y="140" width="12" height="8" rx="3" fill="#333"/>
+  <rect x="115" y="140" width="12" height="8" rx="3" fill="#333"/>
+  <rect x="135" y="140" width="12" height="8" rx="3" fill="#333"/>
+
+  <!-- 马尾巴 -->
+  <path d="M45,95 Q20,100 15,130" stroke="#5D3A1A" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>

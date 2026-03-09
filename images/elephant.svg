@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+ <!-- 背景 -->
+ <rect width="200" height="150" fill="#F0E68C"/>
+ <ellipse cx="100" cy="135" rx="90" ry="15" fill="#DEB887"/>
+
+ <!-- 大象耳朵 -->
+ <ellipse cx="55" cy="70" rx="35" ry="45" fill="#A9A9A9"/>
+ <ellipse cx="145" cy="70" rx="35" ry="45" fill="#A9A9A9"/>
+ <ellipse cx="55" cy="70" rx="20" ry="30" fill="#D3D3D3"/>
+ <ellipse cx="145" cy="70" rx="20" ry="30" fill="#D3D3D3"/>
+
+ <!-- 大象头 -->
+ <ellipse cx="100" cy="80" rx="50" ry="40" fill="#A9A9A9"/>
+
+ <!-- 大象眼睛 -->
+ <circle cx="80" cy="70" r="8" fill="white"/>
+ <circle cx="82" cy="70" r="4" fill="#333"/>
+ <circle cx="83" cy="68" r="1.5" fill="white"/>
+ <circle cx="120" cy="70" r="8" fill="white"/>
+ <circle cx="118" cy="70" r="4" fill="#333"/>
+ <circle cx="119" cy="68" r="1.5" fill="white"/>
+
+ <!-- 大象眉毛 -->
+ <path d="M72,60 Q80,55 88,60" stroke="#666" stroke-width="2" fill="none"/>
+ <path d="M112,60 Q120,55 128,60" stroke="#666" stroke-width="2" fill="none"/>
+
+ <!-- 大象鼻子 -->
+ <path d="M100,100 Q100,140 80,145 Q70,145 65,140" stroke="#A9A9A9" stroke-width="20" fill="none" stroke-linecap="round"/>
+ <path d="M100,100 Q100,140 85,145 Q75,145 70,140" stroke="#909090" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+ <!-- 大象牙 -->
+ <path d="M60,110 L55,140 L50,110" fill="#FFFFF0" stroke="#DDD" stroke-width="1"/>
+ <path d="M140,110 L145,140 L150,110" fill="#FFFFF0" stroke="#DDD" stroke-width="1"/>
+
+ <!-- 大象腿 -->
+ <rect x="50" y="115" width="20" height="35" rx="8" fill="#A9A9A9"/>
+ <rect x="85" y="115" width="20" height="35" rx="8" fill="#A9A9A9"/>
+ <rect x="115" y="115" width="20" height="35" rx="8" fill="#A9A9A9"/>
+ <rect x="145" y="115" width="20" height="35" rx="8" fill="#A9A9A9"/>
+</svg>

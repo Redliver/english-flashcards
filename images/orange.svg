@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+ <!-- 背景 -->
+ <rect width="200" height="150" fill="#FFFACD"/>
+ <ellipse cx="100" cy="135" rx="80" ry="15" fill="#90EE90"/>
+
+ <!-- 橘子主体 -->
+ <circle cx="100" cy="80" r="50" fill="#FF8C00"/>
+ <circle cx="85" cy="65" r="18" fill="#FFA500" opacity="0.4"/>
+ <circle cx="115" cy="85" r="12" fill="#FF7F50" opacity="0.3"/>
+
+ <!-- 橘子顶部 -->
+ <ellipse cx="100" cy="35" rx="15" ry="8" fill="#228B22"/>
+ <path d="M100,35 L100,25" stroke="#228B22" stroke-width="3"/>
+
+ <!-- 橘子脉络 -->
+ <path d="M100,35 Q85,60 80,90" stroke="#E67300" stroke-width="2" fill="none"/>
+ <path d="M100,35 Q115,60 120,90" stroke="#E67300" stroke-width="2" fill="none"/>
+ <path d="M100,35 Q100,55 100,95" stroke="#E67300" stroke-width="2" fill="none"/>
+</svg>

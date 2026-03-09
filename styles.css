@@ -1,0 +1,597 @@
+/* 英语卡片学习网站样式 */
+
+/* ===== 基础变量 ===== */
+:root {
+ /* 主色调 */
+ --bg-primary: #C4E3A5;
+ --bg-card: #ffffff;
+
+ /* 边框颜色 */
+ --border-color: #2E7D4A;
+ --border-light: #4CAF50;
+
+ /* 字母标识颜色 */
+ --letter-bg: #F5F5DC;
+ --letter-color: #D32F2F;
+
+ /* 文字颜色 */
+ --text-primary: #333333;
+ --text-white: #FFFFFF;
+
+ /* 按钮颜色 */
+ --btn-bg: #2E7D4A;
+ --btn-hover: #1B5E34;
+ --btn-bg-light: rgba(46, 125, 74, 0.1);
+
+ /* 阴影 */
+ --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+ --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+ --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+ /* 圆角 */
+ --radius-sm: 8px;
+ --radius-md: 12px;
+ --radius-lg: 20px;
+ --radius-xl: 24px;
+
+ /* 动画时长 */
+ --transition-fast: 0.2s ease;
+ --transition-normal: 0.3s ease;
+ --transition-slow: 0.5s ease;
+}
+
+/* ===== 重置样式 ===== */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ touch-action: manipulation;
+ -webkit-tap-highlight-color: transparent;
+}
+
+body {
+ font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+ background: var(--bg-primary);
+ min-height: 100vh;
+ overflow-x: hidden;
+ user-select: none;
+ -webkit-user-select: none;
+}
+
+/* ===== 应用容器 ===== */
+.app-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ min-height: 100vh;
+ padding-bottom: 40px;
+}
+
+/* ===== 页面标题 ===== */
+.page-header {
+ text-align: center;
+ margin-bottom: 20px;
+ animation: fadeInDown 0.6s ease-out;
+}
+
+.page-header h1 {
+ font-size: 1.8rem;
+ font-weight: 800;
+ color: var(--border-color);
+ text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+ letter-spacing: 0.05em;
+}
+
+.page-header .subtitle {
+ font-size: 0.9rem;
+ color: var(--border-color);
+ opacity: 0.8;
+ margin-top: 4px;
+}
+
+/* ===== 卡片容器 ===== */
+.cards-wrapper {
+ position: relative;
+ width: 100%;
+ max-width: 380px;
+ perspective: 1000px;
+ margin-bottom: 16px;
+}
+
+.card {
+ position: relative;
+ background: var(--bg-card);
+ border-radius: var(--radius-xl);
+ padding: 20px;
+ box-shadow: var(--shadow-md);
+ transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+ cursor: pointer;
+ border: 4px solid var(--border-color);
+}
+
+.card:hover {
+ box-shadow: var(--shadow-lg);
+ transform: translateY(-2px);
+}
+
+.card:active {
+ transform: scale(0.98);
+}
+
+/* ===== 字母标识区 ===== */
+.letter-marker {
+ position: absolute;
+ top: -15px;
+ left: 20px;
+ background: var(--letter-bg);
+ border: 4px solid var(--border-color);
+ border-radius: var(--radius-md);
+ width: 50px;
+ height: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Nunito', sans-serif;
+ font-size: 1.8rem;
+ font-weight: 800;
+ color: var(--letter-color);
+ z-index: 10;
+ box-shadow: var(--shadow-sm);
+ transition: transform var(--transition-fast);
+}
+
+.card:active .letter-marker {
+ transform: scale(1.1);
+}
+
+/* ===== 图片展示区 ===== */
+.image-area {
+ width: 100%;
+ aspect-ratio: 4/3;
+ border: 4px solid var(--border-color);
+ border-radius: var(--radius-lg);
+ overflow: hidden;
+ background: #f5f5f5;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 16px;
+ transition: border-color var(--transition-fast);
+}
+
+.image-area img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ transition: transform var(--transition-normal);
+}
+
+.card:active .image-area img {
+ transform: scale(1.05);
+}
+
+/* ===== 单词句子区 ===== */
+.sentence-area {
+ text-align: center;
+ padding: 8px 4px;
+}
+
+.word {
+ font-family: 'Nunito', sans-serif;
+ font-size: 2.2rem;
+ font-weight: 800;
+ color: var(--text-primary);
+ text-shadow:
+  2px 2px 0 var(--text-white),
+  -1px -1px 0 var(--text-white),
+  1px -1px 0 var(--text-white),
+  -1px 1px 0 var(--text-white),
+  1px 1px 0 var(--text-white);
+ letter-spacing: 0.02em;
+ transition: color var(--transition-fast);
+}
+
+.word .first-letter {
+ color: var(--letter-color);
+}
+
+/* ===== 音标样式 ===== */
+.phonetic {
+ display: block;
+ font-family: 'Nunito', sans-serif;
+ font-size: 1.1rem;
+ font-weight: 600;
+ color: #666;
+ margin-top: 4px;
+ letter-spacing: 0.05em;
+}
+
+.phonetic .vowel {
+ color: #E91E63;
+ font-weight: 700;
+ text-shadow: 0 0 3px rgba(233, 30, 99, 0.3);
+}
+
+.phonetic .long-vowel {
+ color: #9C27B0;
+ font-weight: 700;
+}
+
+.phonetic .diphthong {
+ color: #FF5722;
+ font-weight: 700;
+}
+
+/* ===== 完整句子 ===== */
+.full-sentence {
+ font-family: 'Nunito', sans-serif;
+ font-size: 1.1rem;
+ font-weight: 600;
+ color: var(--border-color);
+ text-align: center;
+ margin-bottom: 20px;
+ padding: 12px 20px;
+ background: rgba(255, 255, 255, 0.7);
+ border-radius: var(--radius-lg);
+ max-width: 380px;
+ width: 100%;
+ text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+ animation: fadeIn 0.5s ease-out;
+ word-wrap: break-word;
+}
+
+.full-sentence .highlight-word {
+ color: var(--letter-color);
+ font-weight: 800;
+}
+
+/* ===== 控制按钮 ===== */
+.controls {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 16px;
+ margin-bottom: 20px;
+ flex-wrap: wrap;
+}
+
+.control-btn {
+ width: 56px;
+ height: 56px;
+ border-radius: 50%;
+ border: 3px solid var(--border-color);
+ background: var(--bg-card);
+ color: var(--border-color);
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: all var(--transition-fast);
+ box-shadow: var(--shadow-sm);
+}
+
+.control-btn:hover {
+ background: var(--btn-bg);
+ color: var(--text-white);
+ transform: scale(1.1);
+}
+
+.control-btn:active {
+ transform: scale(0.9);
+}
+
+.control-btn:disabled {
+ opacity: 0.4;
+ cursor: not-allowed;
+ transform: none;
+}
+
+.control-btn:disabled:hover {
+ background: var(--bg-card);
+ color: var(--border-color);
+}
+
+.prev-btn, .next-btn {
+ width: 48px;
+ height: 48px;
+}
+
+.play-btn {
+ width: 72px;
+ height: 72px;
+ border-width: 4px;
+ background: var(--btn-bg);
+ color: var(--text-white);
+}
+
+.play-btn:hover {
+ background: var(--btn-hover);
+ box-shadow: 0 0 20px rgba(46, 125, 74, 0.4);
+}
+
+.sentence-play-btn {
+ background: rgba(46, 125, 74, 0.15);
+ color: var(--btn-bg);
+}
+
+.sentence-play-btn:hover {
+ background: var(--btn-bg);
+ color: var(--text-white);
+}
+
+/* ===== 进度指示器 ===== */
+.progress-indicator {
+ font-family: 'Nunito', sans-serif;
+ font-size: 1rem;
+ font-weight: 600;
+ color: var(--border-color);
+ margin-bottom: 12px;
+ background: rgba(255, 255, 255, 0.5);
+ padding: 6px 16px;
+ border-radius: 20px;
+}
+
+.current-index {
+ font-size: 1.2rem;
+ font-weight: 800;
+}
+
+/* ===== 卡片指示点 ===== */
+.card-dots {
+ display: flex;
+ gap: 8px;
+ flex-wrap: wrap;
+ justify-content: center;
+ max-width: 300px;
+}
+
+.card-dot {
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ background: rgba(46, 125, 74, 0.3);
+ border: 2px solid var(--border-color);
+ cursor: pointer;
+ transition: all var(--transition-fast);
+}
+
+.card-dot:hover {
+ background: rgba(46, 125, 74, 0.5);
+}
+
+.card-dot.active {
+ background: var(--border-color);
+ transform: scale(1.2);
+}
+
+/* ===== 动画 ===== */
+@keyframes fadeIn {
+ from { opacity: 0; }
+ to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+ from {
+  opacity: 0;
+  transform: translateY(-20px);
+ }
+ to {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
+
+@keyframes fadeInUp {
+ from {
+  opacity: 0;
+  transform: translateY(20px);
+ }
+ to {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
+
+@keyframes slideInLeft {
+ from {
+  opacity: 0;
+  transform: translateX(100px);
+ }
+ to {
+  opacity: 1;
+  transform: translateX(0);
+ }
+}
+
+@keyframes slideInRight {
+ from {
+  opacity: 0;
+  transform: translateX(-100px);
+ }
+ to {
+  opacity: 1;
+  transform: translateX(0);
+ }
+}
+
+@keyframes bounce {
+ 0%, 100% { transform: translateY(0); }
+ 50% { transform: translateY(-10px); }
+}
+
+/* ===== 滑动动画类 ===== */
+.card.slide-out-left {
+ animation: slideOutLeft 0.3s ease-out forwards;
+}
+
+.card.slide-out-right {
+ animation: slideOutRight 0.3s ease-out forwards;
+}
+
+.card.slide-in-left {
+ animation: slideInLeft 0.3s ease-out forwards;
+}
+
+.card.slide-in-right {
+ animation: slideInRight 0.3s ease-out forwards;
+}
+
+@keyframes slideOutLeft {
+ to {
+  opacity: 0;
+  transform: translateX(-100px);
+ }
+}
+
+@keyframes slideOutRight {
+ to {
+  opacity: 0;
+  transform: translateX(100px);
+ }
+}
+
+/* ===== 播放动画 ===== */
+.playing {
+ animation: pulse 0.5s ease-in-out;
+}
+
+@keyframes pulse {
+ 0%, 100% { transform: scale(1); }
+ 50% { transform: scale(1.05); }
+}
+
+/* ===== 响应式设计 ===== */
+@media (max-width: 480px) {
+ .app-container {
+  padding: 16px;
+  padding-bottom: 30px;
+ }
+
+ .page-header h1 {
+  font-size: 1.5rem;
+ }
+
+ .cards-wrapper {
+  max-width: 100%;
+ }
+
+ .card {
+  padding: 16px;
+  border-width: 3px;
+ }
+
+ .letter-marker {
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  top: -12px;
+  left: 16px;
+  border-width: 3px;
+ }
+
+ .image-area {
+  border-width: 3px;
+  margin-bottom: 12px;
+ }
+
+ .word {
+  font-size: 1.8rem;
+ }
+
+ .full-sentence {
+  font-size: 1rem;
+  padding: 10px 16px;
+ }
+
+ .controls {
+  gap: 12px;
+ }
+
+ .control-btn {
+  width: 48px;
+  height: 48px;
+ }
+
+ .play-btn {
+  width: 60px;
+  height: 60px;
+ }
+
+ .prev-btn, .next-btn {
+  width: 40px;
+  height: 40px;
+ }
+
+ .card-dots {
+  gap: 6px;
+ }
+
+ .card-dot {
+  width: 8px;
+  height: 8px;
+ }
+}
+
+@media (min-width: 768px) {
+ .app-container {
+  padding: 30px;
+ }
+
+ .page-header h1 {
+  font-size: 2.2rem;
+ }
+
+ .cards-wrapper {
+  max-width: 450px;
+ }
+
+ .card {
+  padding: 24px;
+ }
+
+ .letter-marker {
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+ }
+
+ .word {
+  font-size: 2.5rem;
+ }
+
+ .full-sentence {
+  font-size: 1.2rem;
+ }
+
+ .control-btn {
+  width: 64px;
+  height: 64px;
+ }
+
+ .play-btn {
+  width: 80px;
+  height: 80px;
+ }
+}
+
+/* ===== 触摸滑动提示 ===== */
+.swipe-hint {
+ position: fixed;
+ bottom: 10px;
+ left: 50%;
+ transform: translateX(-50%);
+ font-size: 0.8rem;
+ color: var(--border-color);
+ opacity: 0.6;
+ animation: bounce 2s infinite;
+}
+
+@media (hover: hover) {
+ .swipe-hint {
+  display: none;
+ }
+}

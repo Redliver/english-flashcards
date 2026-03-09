@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <title>英语卡片学习</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="app-container">
+  <!-- 页面标题 -->
+  <header class="page-header">
+   <h1>英语卡片学习</h1>
+   <p class="subtitle">点击卡片听发音</p>
+  </header>
+
+  <!-- 卡片容器 -->
+  <div class="cards-wrapper" id="cardsWrapper">
+   <div class="card" id="currentCard">
+    <!-- 字母标识区 -->
+    <div class="letter-marker" id="letterMarker">d</div>
+
+    <!-- 图片展示区 -->
+    <div class="image-area" id="imageArea">
+     <img id="cardImage" src="images/duck.svg" alt="Duck">
+    </div>
+
+    <!-- 单词句子区 -->
+    <div class="sentence-area" id="sentenceArea">
+     <span class="word" id="wordText">duck</span>
+     <span class="phonetic" id="phoneticText">/dʌk/</span>
+    </div>
+   </div>
+  </div>
+
+  <!-- 完整句子显示 -->
+  <div class="full-sentence" id="fullSentence">
+   A duck says, "quack."
+  </div>
+
+  <!-- 控制按钮 -->
+  <div class="controls">
+   <button class="control-btn prev-btn" id="prevBtn" aria-label="上一张">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+     <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
+   </button>
+
+   <button class="control-btn play-btn" id="playWordBtn" aria-label="播放单词">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+     <polygon points="5 3 19 12 5 21 5 3"></polygon>
+    </svg>
+   </button>
+
+   <button class="control-btn play-btn sentence-play-btn" id="playSentenceBtn" aria-label="播放句子">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+     <path d="M11 5L6 9H2v6h4l5 4V5z"></path>
+     <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+    </svg>
+   </button>
+
+   <button class="control-btn next-btn" id="nextBtn" aria-label="下一张">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+     <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+   </button>
+  </div>
+
+  <!-- 进度指示器 -->
+  <div class="progress-indicator">
+   <span class="current-index" id="currentIndex">1</span> / <span class="total-count" id="totalCount">10</span>
+  </div>
+
+  <!-- 卡片列表指示器 -->
+  <div class="card-dots" id="cardDots"></div>
+ </div>
+
+ <script src="cards-data.js"></script>
+ <script src="app.js"></script>
+</body>
+</html>
