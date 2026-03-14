@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
+
+  <!-- 汽车车身 -->
+  <path d="M 50 100 L 50 80 Q 50 70 60 70 L 80 70 L 90 55 L 130 55 L 140 70 L 160 70 Q 170 70 170 80 L 170 100 Z" fill="#FF0000"/>
+
+  <!-- 汽车窗户 -->
+  <path d="M 92 58 L 128 58 L 135 70 L 85 70 Z" fill="#87CEEB"/>
+  <path d="M 55 72 L 82 72 L 82 85 L 55 85 Z" fill="#87CEEB"/>
+  <path d="M 138 72 L 165 72 L 165 85 L 138 85 Z" fill="#87CEEB"/>
+
+  <!-- 汽车门把手 -->
+  <rect x="95" y="78" width="8" height="3" rx="1" fill="#C0C0C0"/>
+  <rect x="125" y="78" width="8" height="3" rx="1" fill="#C0C0C0"/>
+
+  <!-- 汽车轮子 -->
+  <circle cx="75" cy="100" r="15" fill="#333"/>
+  <circle cx="145" cy="100" r="15" fill="#333"/>
+  <circle cx="75" cy="100" r="8" fill="#C0C0C0"/>
+  <circle cx="145" cy="100" r="8" fill="#C0C0C0"/>
+
+  <!-- 轮毂细节 -->
+  <line x1="75" y1="92" x2="75" y2="108" stroke="#666" stroke-width="2"/>
+  <line x1="67" y1="100" x2="83" y2="100" stroke="#666" stroke-width="2"/>
+  <line x1="145" y1="92" x2="145" y2="108" stroke="#666" stroke-width="2"/>
+  <line x1="137" y1="100" x2="153" y2="100" stroke="#666" stroke-width="2"/>
+
+  <!-- 汽车前灯 -->
+  <path d="M 168 82 Q 172 85 168 88" fill="#FFD700"/>
+  <ellipse cx="168" cy="85" rx="3" ry="5" fill="#FFD700"/>
+
+  <!-- 汽车后灯 -->
+  <rect x="48" y="80" width="4" height="10" fill="#FF6347"/>
+
+  <!-- 汽车保险杠 -->
+  <rect x="48" y="95" width="8" height="5" rx="2" fill="#C0C0C0"/>
+  <rect x="164" y="95" width="8" height="5" rx="2" fill="#C0C0C0"/>
+
+  <!-- 路面 -->
+  <rect x="20" y="115" width="160" height="3" fill="#808080"/>
+  <rect x="40" y="115" width="20" height="3" fill="#FFD700"/>
+  <rect x="90" y="115" width="20" height="3" fill="#FFD700"/>
+  <rect x="140" y="115" width="20" height="3" fill="#FFD700"/>
+</svg>

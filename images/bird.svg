@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
+
+  <!-- 小鸟身体 -->
+  <ellipse cx="100" cy="80" rx="30" ry="22" fill="#FFD700"/>
+
+  <!-- 小鸟头 -->
+  <circle cx="100" cy="50" r="20" fill="#FFD700"/>
+
+  <!-- 小鸟眼睛 -->
+  <circle cx="95" cy="48" r="4" fill="white"/>
+  <circle cx="105" cy="48" r="4" fill="white"/>
+  <circle cx="96" cy="48" r="2" fill="black"/>
+  <circle cx="106" cy="48" r="2" fill="black"/>
+
+  <!-- 小鸟嘴巴 -->
+  <polygon points="118,50 130,55 118,60" fill="#FF8C00"/>
+
+  <!-- 小鸟翅膀 -->
+  <ellipse cx="75" cy="75" rx="15" ry="10" fill="#FFA500"/>
+  <ellipse cx="125" cy="75" rx="15" ry="10" fill="#FFA500"/>
+
+  <!-- 小鸟尾巴 -->
+  <polygon points="130,80 150,70 150,90" fill="#FFA500"/>
+
+  <!-- 小鸟腿 -->
+  <line x1="90" y1="100" x2="90" y2="115" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+  <line x1="110" y1="100" x2="110" y2="115" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+  <line x1="85" y1="115" x2="95" y2="115" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+  <line x1="105" y1="115" x2="115" y2="115" stroke="#FF8C00" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 小鸟腮红 -->
+  <ellipse cx="88" cy="58" rx="3" ry="2" fill="#FF69B4" opacity="0.5"/>
+  <ellipse cx="112" cy="58" rx="3" ry="2" fill="#FF69B4" opacity="0.5"/>
+
+  <!-- 地面小草 -->
+  <path d="M 70 130 L 75 120" stroke="#228B22" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 130 130 L 125 120" stroke="#228B22" stroke-width="2" stroke-linecap="round"/>
+</svg>

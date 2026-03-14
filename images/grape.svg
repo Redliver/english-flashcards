@@ -1,38 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 -->
- <rect width="200" height="150" fill="#F5F5DC"/>
- <ellipse cx="100" cy="140" rx="80" ry="10" fill="#8B4513"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 葡萄叶 -->
- <path d="M100,20 Q80,5 60,25 Q50,45 70,50 Q85,45 100,35 Q115,45 130,50 Q150,45 140,25 Q120,5 100,20" fill="#228B22"/>
- <path d="M100,20 L100,50" stroke="#006400" stroke-width="3"/>
+  <!-- 葡萄梗 -->
+  <path d="M 100 40 L 100 25" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 100 25 L 90 15" stroke="#228B22" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="88" cy="15" rx="10" ry="5" fill="#228B22" transform="rotate(-30 88 15)"/>
 
- <!-- 葡萄藤 -->
- <path d="M100,10 Q100,5 105,5" stroke="#8B4513" stroke-width="3" fill="none"/>
+  <!-- 葡萄果实 -->
+  <circle cx="100" cy="50" r="12" fill="#9370DB"/>
+  <circle cx="88" cy="62" r="12" fill="#9370DB"/>
+  <circle cx="112" cy="62" r="12" fill="#9370DB"/>
+  <circle cx="100" cy="74" r="12" fill="#9370DB"/>
+  <circle cx="88" cy="86" r="12" fill="#9370DB"/>
+  <circle cx="112" cy="86" r="12" fill="#9370DB"/>
+  <circle cx="100" cy="98" r="12" fill="#9370DB"/>
+  <circle cx="88" cy="110" r="12" fill="#9370DB"/>
+  <circle cx="112" cy="110" r="12" fill="#9370DB"/>
 
- <!-- 葡萄串主体 -->
- <ellipse cx="100" cy="80" rx="35" ry="50" fill="#6A0DAD"/>
- <ellipse cx="100" cy="80" rx="30" ry="45" fill="#7B1FA2"/>
-
- <!-- 葡萄果实 - 多层 -->
- <circle cx="85" cy="55" r="12" fill="#6A0DAD"/>
- <circle cx="100" cy="50" r="12" fill="#7B1FA2"/>
- <circle cx="115" cy="55" r="12" fill="#6A0DAD"/>
-
- <circle cx="75" cy="75" r="12" fill="#7B1FA2"/>
- <circle cx="90" cy="72" r="12" fill="#6A0DAD"/>
- <circle cx="105" cy="75" r="12" fill="#7B1FA2"/>
- <circle cx="120" cy="72" r="12" fill="#6A0DAD"/>
-
- <circle cx="80" cy="95" r="12" fill="#6A0DAD"/>
- <circle cx="95" cy="100" r="12" fill="#7B1FA2"/>
- <circle cx="110" cy="95" r="12" fill="#6A0DAD"/>
-
- <circle cx="88" cy="115" r="10" fill="#7B1FA2"/>
- <circle cx="105" cy="118" r="10" fill="#6A0DAD"/>
-
- <!-- 葡萄高光 -->
- <circle cx="82" cy="52" r="4" fill="white" opacity="0.3"/>
- <circle cx="97" cy="47" r="4" fill="white" opacity="0.3"/>
- <circle cx="112" cy="52" r="4" fill="white" opacity="0.3"/>
+  <!-- 葡萄高光 -->
+  <circle cx="96" cy="46" r="3" fill="#DDA0DD" opacity="0.6"/>
+  <circle cx="84" cy="58" r="3" fill="#DDA0DD" opacity="0.6"/>
+  <circle cx="108" cy="58" r="3" fill="#DDA0DD" opacity="0.6"/>
+  <circle cx="96" cy="70" r="3" fill="#DDA0DD" opacity="0.6"/>
 </svg>

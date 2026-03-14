@@ -1,26 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 夜空 -->
- <rect width="200" height="150" fill="#191970"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#191970"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#2F4F4F"/>
 
- <!-- 星星 -->
- <polygon points="30,20 32,26 38,26 33,30 35,36 30,32 25,36 27,30 22,26 28,26" fill="#FFD700"/>
- <polygon points="160,15 162,21 168,21 163,25 165,31 160,27 155,31 157,25 152,21 158,21" fill="#FFD700" transform="scale(0.8)"/>
- <polygon points="80,30 82,36 88,36 83,40 85,46 80,42 75,46 77,40 72,36 78,36" fill="#FFD700" transform="scale(0.6)"/>
- <polygon points="150,60 152,66 158,66 153,70 155,76 150,72 145,76 147,70 142,66 148,66" fill="#FFD700" transform="scale(0.7)"/>
- <polygon points="50,50 52,56 58,56 53,60 55,66 50,62 45,66 47,60 42,56 48,56" fill="#FFD700" transform="scale(0.5)"/>
- <polygon points="180,90 182,96 188,96 183,100 185,106 180,102 175,106 177,100 172,96 178,96" fill="#FFD700" transform="scale(0.6)"/>
+  <!-- 星星 -->
+  <polygon points="40,30 42,36 48,36 43,40 45,46 40,42 35,46 37,40 32,36 38,36" fill="white"/>
+  <polygon points="160,25 162,31 168,31 163,25 165,31 160,27 155,31 157,25 152,31 158,31" fill="white" transform="scale(0.8) translate(40,5)"/>
+  <polygon points="30,60 31,63 34,63 32,65 33,68 30,66 27,68 28,65 26,63 29,63" fill="white"/>
+  <polygon points="170,55 171,58 174,58 172,60 173,63 170,61 167,63 168,60 166,58 169,58" fill="white"/>
+  <polygon points="150,90 151,93 154,93 152,95 153,98 150,96 147,98 148,95 146,93 149,93" fill="white"/>
 
- <!-- 月亮主体 -->
- <circle cx="100" cy="75" r="40" fill="#F0E68C"/>
- <circle cx="85" cy="65" r="35" fill="#191970"/>
+  <!-- 月亮 -->
+  <path d="M 100 30 Q 140 30 140 75 Q 140 120 100 120 Q 120 100 120 75 Q 120 50 100 30" fill="#F0E68C"/>
 
- <!-- 月亮阴影部分（月牙效果） -->
- <circle cx="115" cy="75" r="38" fill="#F0E68C" opacity="0.9"/>
- <circle cx="125" cy="70" r="30" fill="#F0E68C" opacity="0.9"/>
- <circle cx="120" cy="85" r="25" fill="#F0E68C" opacity="0.9"/>
+  <!-- 月亮表情 -->
+  <circle cx="125" cy="65" r="3" fill="black"/>
+  <circle cx="135" cy="65" r="3" fill="black"/>
+  <path d="M 125 75 Q 130 80 135 75" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
 
- <!-- 月亮上的环形山 -->
- <circle cx="95" cy="85" r="8" fill="#DAA520" opacity="0.5"/>
- <circle cx="110" cy="60" r="5" fill="#DAA520" opacity="0.4"/>
- <circle cx="105" cy="90" r="4" fill="#DAA520" opacity="0.3"/>
+  <!-- 月亮腮红 -->
+  <ellipse cx="122" cy="72" rx="3" ry="2" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="138" cy="72" rx="3" ry="2" fill="#FFB6C1" opacity="0.5"/>
 </svg>

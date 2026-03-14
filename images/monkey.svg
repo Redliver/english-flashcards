@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
+
+  <!-- 猴子身体 -->
+  <ellipse cx="100" cy="90" rx="30" ry="25" fill="#D2691E"/>
+
+  <!-- 猴子肚子 -->
+  <ellipse cx="100" cy="90" rx="15" ry="15" fill="#F4A460"/>
+
+  <!-- 猴子头 -->
+  <circle cx="100" cy="55" r="25" fill="#D2691E"/>
+
+  <!-- 猴子脸部 - 心形脸 -->
+  <circle cx="100" cy="60" r="15" fill="#F4A460"/>
+
+  <!-- 猴子耳朵 -->
+  <circle cx="78" cy="45" r="8" fill="#D2691E"/>
+  <circle cx="122" cy="45" r="8" fill="#D2691E"/>
+  <circle cx="78" cy="45" r="4" fill="#F4A460"/>
+  <circle cx="122" cy="45" r="4" fill="#F4A460"/>
+
+  <!-- 猴子眼睛 -->
+  <circle cx="94" cy="55" r="4" fill="white"/>
+  <circle cx="106" cy="55" r="4" fill="white"/>
+  <circle cx="95" cy="55" r="2" fill="black"/>
+  <circle cx="107" cy="55" r="2" fill="black"/>
+
+  <!-- 猴子鼻子 -->
+  <ellipse cx="100" cy="62" rx="3" ry="2" fill="#8B4513"/>
+
+  <!-- 猴子嘴巴 -->
+  <path d="M 95 68 Q 100 72 105 68" stroke="black" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 猴子手臂 -->
+  <path d="M 75 80 Q 60 90 55 75" stroke="#D2691E" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 125 80 Q 140 90 145 75" stroke="#D2691E" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="55" cy="75" r="5" fill="#F4A460"/>
+  <circle cx="145" cy="75" r="5" fill="#F4A460"/>
+
+  <!-- 猴子腿 -->
+  <path d="M 85 110 Q 80 125 75 130" stroke="#D2691E" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 115 110 Q 120 125 125 130" stroke="#D2691E" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="75" cy="132" rx="6" ry="4" fill="#F4A460"/>
+  <ellipse cx="125" cy="132" rx="6" ry="4" fill="#F4A460"/>
+
+  <!-- 猴子尾巴 -->
+  <path d="M 130 85 Q 150 80 155 60 Q 160 40 145 50" stroke="#D2691E" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

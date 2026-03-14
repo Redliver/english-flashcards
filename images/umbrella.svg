@@ -1,31 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 下雨天 -->
- <rect width="200" height="150" fill="#778899"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 雨滴 -->
- <path d="M30,10 L25,25" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M60,5 L55,20" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M90,15 L85,30" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M120,8 L115,23" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M150,12 L145,27" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M180,18 L175,33" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M45,35 L40,50" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M75,40 L70,55" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M105,38 L100,53" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M135,42 L130,57" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
- <path d="M165,38 L160,53" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+  <!-- 伞柄 -->
+  <path d="M 100 60 L 100 125" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 100 125 Q 100 140 115 140" stroke="#8B4513" stroke-width="4" fill="none" stroke-linecap="round"/>
 
- <!-- 伞面 -->
- <path d="M30,70 Q100,20 170,70" fill="#DC143C"/>
- <path d="M30,70 Q100,20 170,70" fill="none" stroke="#B22222" stroke-width="4"/>
+  <!-- 伞面 -->
+  <path d="M 40 70 Q 100 20 160 70" fill="#FF0000"/>
+  <path d="M 40 70 Q 70 50 100 70" fill="#FF8C00"/>
+  <path d="M 100 70 Q 130 50 160 70" fill="#FFD700"/>
 
- <!-- 伞面条纹 -->
- <path d="M50,63 Q100,35 150,63" stroke="#FF6B6B" stroke-width="3" fill="none"/>
- <path d="M70,73 Q100,50 130,73" stroke="#FF6B6B" stroke-width="3" fill="none"/>
+  <!-- 伞面边缘 -->
+  <path d="M 40 70 Q 45 75 50 70" fill="#FF0000"/>
+  <path d="M 70 60 Q 75 65 80 60" fill="#FF8C00"/>
+  <path d="M 100 50 Q 105 55 110 50" fill="#FF0000"/>
+  <path d="M 120 60 Q 125 65 130 60" fill="#FFD700"/>
+  <path d="M 150 70 Q 155 75 160 70" fill="#FFD700"/>
 
- <!-- 伞柄 -->
- <rect x="96" y="70" width="8" height="60" fill="#8B4513" rx="2"/>
-
- <!-- 伞柄弯钩 -->
- <path d="M96,75 Q85,75 85,85 L85,90" stroke="#8B4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- 伞顶 -->
+  <line x1="100" y1="35" x2="100" y2="25" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
 </svg>

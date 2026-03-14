@@ -1,30 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 -->
- <rect width="200" height="150" fill="#87CEEB"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 水杯 -->
- <path d="M60,40 L65,130 Q100,145 135,130 L140,40 Z" fill="#E0FFFF" stroke="#333" stroke-width="3"/>
- <ellipse cx="100" cy="40" rx="40" ry="10" fill="#87CEEB" stroke="#333" stroke-width="3"/>
- <ellipse cx="100" cy="40" rx="35" ry="8" fill="#4FB3D9"/>
+  <!-- 水滴 -->
+  <path d="M 100 25 Q 130 65 130 85 Q 130 110 100 110 Q 70 110 70 85 Q 70 65 100 25" fill="#00BFFF"/>
 
- <!-- 水面 -->
- <ellipse cx="100" cy="55" rx="32" ry="7" fill="#4FB3D9"/>
- <ellipse cx="100" cy="70" rx="30" ry="6" fill="#4FB3D9"/>
- <ellipse cx="100" cy="85" rx="28" ry="6" fill="#4FB3D9"/>
- <ellipse cx="100" cy="100" rx="26" ry="5" fill="#4FB3D9"/>
+  <!-- 水滴高光 -->
+  <ellipse cx="90" cy="75" rx="8" ry="12" fill="#87CEEB" opacity="0.6"/>
+  <circle cx="95" cy="65" r="4" fill="white" opacity="0.8"/>
 
- <!-- 水波纹 -->
- <path d="M70,55 Q85,50 100,55 Q115,60 130,55" stroke="#87CEEB" stroke-width="2" fill="none"/>
- <path d="M72,70 Q87,65 102,70 Q117,75 132,70" stroke="#87CEEB" stroke-width="2" fill="none"/>
- <path d="M74,85 Q89,80 104,85 Q119,90 134,85" stroke="#87CEEB" stroke-width="2" fill="none"/>
+  <!-- 小水滴 -->
+  <ellipse cx="70" cy="100" rx="8" ry="10" fill="#00BFFF"/>
+  <ellipse cx="65" cy="98" rx="3" ry="5" fill="#87CEEB" opacity="0.6"/>
 
- <!-- 气泡 -->
- <circle cx="80" cy="60" r="4" fill="white" opacity="0.6"/>
- <circle cx="110" cy="75" r="3" fill="white" opacity="0.5"/>
- <circle cx="90" cy="95" r="3" fill="white" opacity="0.5"/>
- <circle cx="105" cy="110" r="2" fill="white" opacity="0.4"/>
+  <ellipse cx="130" cy="105" rx="6" ry="8" fill="#00BFFF"/>
+  <ellipse cx="127" cy="103" rx="2" ry="4" fill="#87CEEB" opacity="0.6"/>
 
- <!-- 杯子高光 -->
- <path d="M68,50 L65,120" stroke="white" stroke-width="3" opacity="0.3"/>
- <path d="M135,50 L138,120" stroke="white" stroke-width="2" opacity="0.2"/>
+  <!-- 水花 -->
+  <circle cx="60" cy="115" r="3" fill="#00BFFF" opacity="0.7"/>
+  <circle cx="140" cy="118" r="4" fill="#00BFFF" opacity="0.7"/>
+  <circle cx="150" cy="110" r="2" fill="#00BFFF" opacity="0.7"/>
 </svg>

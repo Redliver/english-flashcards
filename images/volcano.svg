@@ -1,41 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 夜空 -->
- <rect width="200" height="150" fill="#1a1a2e"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 火山主体 -->
- <path d="M30,150 L70,50 L100,60 L130,50 L170,150 Z" fill="#8B4513"/>
- <path d="M40,150 L75,60 L100,68 L125,60 L160,150 Z" fill="#A0522D"/>
+  <!-- 火山主体 -->
+  <polygon points="50,130 100,40 150,130" fill="#8B4513"/>
+  <polygon points="60,130 100,50 140,130" fill="#A0522D"/>
 
- <!-- 火山口 -->
- <ellipse cx="100" cy="55" rx="25" ry="10" fill="#333"/>
- <ellipse cx="100" cy="52" rx="20" ry="8" fill="#4a0000"/>
+  <!-- 火山口 -->
+  <ellipse cx="100" cy="50" rx="15" ry="5" fill="#333"/>
+  <ellipse cx="100" cy="52" rx="10" ry="3" fill="#4a0000"/>
 
- <!-- 熔岩 -->
- <ellipse cx="100" cy="55" rx="15" ry="6" fill="#FF4500"/>
- <ellipse cx="100" cy="53" rx="10" ry="4" fill="#FF6347"/>
+  <!-- 岩浆 -->
+  <ellipse cx="100" cy="50" rx="8" ry="4" fill="#FF4500"/>
+  <path d="M 95 52 Q 90 65 95 80" stroke="#FF4500" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 105 52 Q 110 65 105 80" stroke="#FF4500" stroke-width="6" fill="none" stroke-linecap="round"/>
 
- <!-- 熔岩流出 -->
- <path d="M90,58 Q85,70 80,90 Q75,110 70,130" stroke="#FF4500" stroke-width="8" fill="none"/>
- <path d="M110,58 Q115,70 120,90 Q125,110 130,130" stroke="#FF4500" stroke-width="8" fill="none"/>
+  <!-- 岩浆滴落 -->
+  <circle cx="95" cy="85" r="4" fill="#FF4500"/>
+  <circle cx="105" cy="75" r="3" fill="#FF6347"/>
 
- <!-- 熔岩滴落 -->
- <circle cx="75" cy="95" r="5" fill="#FF4500"/>
- <circle cx="125" cy="105" r="4" fill="#FF4500"/>
- <circle cx="80" cy="120" r="3" fill="#FF6347"/>
- <circle cx="120" cy="125" r="4" fill="#FF6347"/>
+  <!-- 烟雾 -->
+  <circle cx="90" cy="30" r="10" fill="#696969" opacity="0.6"/>
+  <circle cx="100" cy="20" r="12" fill="#808080" opacity="0.5"/>
+  <circle cx="110" cy="30" r="9" fill="#696969" opacity="0.6"/>
 
- <!-- 烟雾 -->
- <ellipse cx="80" cy="30" rx="20" ry="12" fill="#696969" opacity="0.6"/>
- <ellipse cx="100" cy="20" rx="25" ry="15" fill="#808080" opacity="0.5"/>
- <ellipse cx="120" cy="30" rx="18" ry="10" fill="#696969" opacity="0.6"/>
-
- <!-- 星星 -->
- <circle cx="30" cy="20" r="2" fill="white" opacity="0.8"/>
- <circle cx="170" cy="25" r="1.5" fill="white" opacity="0.6"/>
- <circle cx="50" cy="35" r="1" fill="white" opacity="0.7"/>
- <circle cx="150" cy="15" r="1.5" fill="white" opacity="0.5"/>
-
- <!-- 火山纹理 -->
- <path d="M60,100 L65,120" stroke="#654321" stroke-width="2"/>
- <path d="M140,100 L135,120" stroke="#654321" stroke-width="2"/>
+  <!-- 火山底部石头 -->
+  <circle cx="60" cy="130" r="5" fill="#696969"/>
+  <circle cx="140" cy="130" r="6" fill="#696969"/>
 </svg>

@@ -1,35 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 蓝天 -->
- <rect width="200" height="150" fill="#87CEEB"/>
- <ellipse cx="100" cy="140" rx="90" ry="10" fill="#90EE90"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 云朵 -->
- <ellipse cx="40" cy="30" rx="25" ry="15" fill="white" opacity="0.8"/>
- <ellipse cx="60" cy="25" rx="20" ry="12" fill="white" opacity="0.8"/>
- <ellipse cx="55" cy="35" rx="18" ry="10" fill="white" opacity="0.8"/>
+  <!-- 风筝线 -->
+  <line x1="100" y1="50" x2="60" y2="140" stroke="#333" stroke-width="1" stroke-linecap="round"/>
 
- <ellipse cx="160" cy="40" rx="30" ry="18" fill="white" opacity="0.8"/>
- <ellipse cx="180" cy="35" rx="22" ry="14" fill="white" opacity="0.8"/>
+  <!-- 风筝主体 -->
+  <polygon points="100,20 140,50 100,80 60,50" fill="#FF6347"/>
 
- <!-- 风筝线 -->
- <path d="M100,75 L100,145" stroke="#8B4513" stroke-width="2"/>
- <path d="M100,145 L100,150" stroke="#8B4513" stroke-width="2"/>
+  <!-- 风筝装饰 -->
+  <polygon points="100,20 120,50 100,50" fill="#FFD700"/>
+  <polygon points="100,80 80,50 100,50" fill="#FFD700"/>
 
- <!-- 风筝主体 - 菱形 -->
- <polygon points="100,10 150,50 100,90 50,50" fill="#FF6B6B"/>
- <polygon points="100,15 140,50 100,85 60,50" fill="#FF8A80"/>
+  <!-- 风筝尾巴 -->
+  <path d="M 100 80 Q 90 95 100 110" stroke="#FF6347" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 100 110 Q 110 125 100 140" stroke="#FFD700" stroke-width="4" fill="none" stroke-linecap="round"/>
 
- <!-- 风筝骨架 -->
- <path d="M100,10 L100,90" stroke="#333" stroke-width="2"/>
- <path d="M50,50 L150,50" stroke="#333" stroke-width="2"/>
-
- <!-- 风筝尾巴 -->
- <path d="M100,90 Q90,110 100,120 Q110,130 100,140" stroke="#FFD700" stroke-width="4" fill="none" stroke-linecap="round"/>
- <circle cx="100" cy="140" r="5" fill="#FF6B6B"/>
-
- <!-- 风筝尾巴飘带 -->
- <path d="M95,95 L90,105" stroke="#FFD700" stroke-width="3"/>
- <path d="M105,95 L110,105" stroke="#FFD700" stroke-width="3"/>
- <path d="M92,110 L85,120" stroke="#FFD700" stroke-width="3"/>
- <path d="M108,110 L115,120" stroke="#FFD700" stroke-width="3"/>
+  <!-- 尾巴蝴蝶结 -->
+  <ellipse cx="95" cy="95" rx="8" ry="5" fill="#FF6347"/>
+  <ellipse cx="105" cy="95" rx="8" ry="5" fill="#FF6347"/>
+  <ellipse cx="95" cy="125" rx="8" ry="5" fill="#FFD700"/>
+  <ellipse cx="105" cy="125" rx="8" ry="5" fill="#FFD700"/>
 </svg>

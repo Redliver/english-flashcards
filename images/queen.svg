@@ -1,52 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 城堡 -->
- <rect width="200" height="150" fill="#9370DB"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 城堡塔 -->
- <rect x="20" y="60" width="40" height="90" fill="#8B4513"/>
- <rect x="140" y="60" width="40" height="90" fill="#8B4513"/>
- <rect x="60" y="80" width="80" height="70" fill="#A0522D"/>
+  <!-- 女王身体/裙子 -->
+  <path d="M 70 130 L 80 85 L 120 85 L 130 130 Z" fill="#4169E1"/>
+  <path d="M 75 130 L 85 90 L 115 90 L 125 130 Z" fill="#5B8DEE"/>
 
- <!-- 城堡窗户 -->
- <rect x="30" y="80" width="15" height="20" rx="2" fill="#FFD700"/>
- <rect x="155" y="80" width="15" height="20" rx="2" fill="#FFD700"/>
- <rect x="80" y="95" width="40" height="30" rx="5" fill="#FFD700"/>
+  <!-- 裙子装饰 -->
+  <circle cx="85" cy="110" r="4" fill="#FFD700"/>
+  <circle cx="100" cy="105" r="4" fill="#FFD700"/>
+  <circle cx="115" cy="110" r="4" fill="#FFD700"/>
 
- <!-- 城堡塔尖 -->
- <polygon points="20,60 40,30 60,60" fill="#DC143C"/>
- <polygon points="140,60 160,30 180,60" fill="#DC143C"/>
+  <!-- 女王头 -->
+  <circle cx="100" cy="65" r="22" fill="#F5DEB3"/>
 
- <!-- 女王身体 -->
- <ellipse cx="100" cy="130" rx="25" ry="15" fill="#4169E1"/>
+  <!-- 女王头发 - 金色卷发 -->
+  <circle cx="78" cy="65" r="12" fill="#FFD700"/>
+  <circle cx="122" cy="65" r="12" fill="#FFD700"/>
+  <circle cx="85" cy="50" r="10" fill="#FFD700"/>
+  <circle cx="115" cy="50" r="10" fill="#FFD700"/>
+  <ellipse cx="100" cy="45" rx="15" ry="8" fill="#FFD700"/>
 
- <!-- 女王裙子 -->
- <path d="M75,130 Q60,150 100,150 Q140,150 125,130" fill="#4169E1"/>
- <path d="M80,130 Q70,145 100,145 Q130,145 120,130" fill="#5B8DEE"/>
+  <!-- 女王脸部 -->
+  <!-- 眼睛 -->
+  <circle cx="92" cy="63" r="4" fill="#333"/>
+  <circle cx="108" cy="63" r="4" fill="#333"/>
+  <circle cx="93" cy="62" r="1.5" fill="white"/>
+  <circle cx="109" cy="62" r="1.5" fill="white"/>
 
- <!-- 女王头 -->
- <circle cx="100" cy="100" r="18" fill="#FFDAB9"/>
+  <!-- 微笑 -->
+  <path d="M 95 72 Q 100 76 105 72" stroke="#DC143C" stroke-width="2" fill="none" stroke-linecap="round"/>
 
- <!-- 女王头发 -->
- <ellipse cx="82" cy="100" rx="15" ry="20" fill="#FFD700"/>
- <ellipse cx="118" cy="100" rx="15" ry="20" fill="#FFD700"/>
- <circle cx="100" cy="85" r="15" fill="#FFD700"/>
+  <!-- 腮红 -->
+  <ellipse cx="85" cy="70" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
+  <ellipse cx="115" cy="70" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
 
- <!-- 女王王冠 -->
- <polygon points="80,75 85,60 95,70 100,55 105,70 115,60 120,75" fill="#FFD700"/>
- <circle cx="100" cy="58" r="5" fill="#DC143C"/>
- <circle cx="85" cy="65" r="3" fill="#DC143C"/>
- <circle cx="115" cy="65" r="3" fill="#DC143C"/>
+  <!-- 女王皇冠 - 更大更明显 -->
+  <path d="M 75 50 L 80 25 L 90 35 L 100 20 L 110 35 L 120 25 L 125 50 Z" fill="#FFD700"/>
+  <circle cx="100" cy="28" r="5" fill="#DC143C"/>
+  <circle cx="82" cy="32" r="3" fill="#4169E1"/>
+  <circle cx="118" cy="32" r="3" fill="#4169E1"/>
 
- <!-- 女王眼睛 -->
- <circle cx="93" cy="98" r="3" fill="#333"/>
- <circle cx="107" cy="98" r="3" fill="#333"/>
- <circle cx="94" cy="97" r="1" fill="white"/>
- <circle cx="108" cy="97" r="1" fill="white"/>
+  <!-- 权杖 -->
+  <line x1="135" y1="130" x2="135" y2="60" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="135" cy="55" r="8" fill="#FFD700"/>
+  <circle cx="135" cy="55" r="4" fill="#DC143C"/>
 
- <!-- 女王微笑 -->
- <path d="M94,108 Q100,113 106,108" stroke="#DC143C" stroke-width="2" fill="none"/>
-
- <!-- 女王腮红 -->
- <ellipse cx="85" cy="105" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
- <ellipse cx="115" cy="105" rx="5" ry="3" fill="#FFB6C1" opacity="0.5"/>
+  <!-- 项链 -->
+  <path d="M 88 82 Q 100 88 112 82" stroke="#FFD700" stroke-width="4" fill="none" stroke-linecap="round"/>
 </svg>

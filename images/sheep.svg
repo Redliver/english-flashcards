@@ -1,43 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
   <!-- 背景 -->
   <rect width="200" height="150" fill="#87CEEB"/>
-  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#90EE90"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
-  <!-- 羊毛身体 - 多个圆形组成 -->
-  <circle cx="80" cy="85" r="25" fill="white"/>
-  <circle cx="110" cy="80" r="28" fill="white"/>
-  <circle cx="140" cy="85" r="25" fill="white"/>
-  <circle cx="95" cy="105" r="22" fill="white"/>
-  <circle cx="125" cy="105" r="22" fill="white"/>
-  <circle cx="70" cy="105" r="18" fill="white"/>
-  <circle cx="150" cy="105" r="18" fill="white"/>
-  <circle cx="110" cy="115" r="20" fill="white"/>
+  <!-- 绵羊身体（羊毛） -->
+  <circle cx="85" cy="85" r="18" fill="white"/>
+  <circle cx="100" cy="75" r="18" fill="white"/>
+  <circle cx="115" cy="85" r="18" fill="white"/>
+  <circle cx="100" cy="95" r="18" fill="white"/>
+  <circle cx="85" cy="100" r="16" fill="white"/>
+  <circle cx="115" cy="100" r="16" fill="white"/>
+  <circle cx="70" cy="90" r="15" fill="white"/>
+  <circle cx="130" cy="90" r="15" fill="white"/>
 
-  <!-- 羊头 -->
-  <ellipse cx="160" cy="70" rx="25" ry="22" fill="#333"/>
+  <!-- 绵羊头 -->
+  <ellipse cx="100" cy="55" rx="22" ry="25" fill="#333"/>
 
-  <!-- 羊耳朵 -->
-  <ellipse cx="140" cy="55" rx="12" ry="8" fill="#333"/>
-  <ellipse cx="175" cy="60" rx="10" ry="7" fill="#333"/>
+  <!-- 绵羊耳朵 -->
+  <ellipse cx="78" cy="55" rx="10" ry="6" fill="#333"/>
+  <ellipse cx="122" cy="55" rx="10" ry="6" fill="#333"/>
 
-  <!-- 羊眼睛 -->
-  <circle cx="155" cy="65" r="5" fill="white"/>
-  <circle cx="165" cy="65" r="5" fill="white"/>
-  <circle cx="156" cy="65" r="2.5" fill="black"/>
-  <circle cx="166" cy="65" r="2.5" fill="black"/>
+  <!-- 绵羊眼睛 -->
+  <circle cx="93" cy="50" r="5" fill="white"/>
+  <circle cx="107" cy="50" r="5" fill="white"/>
+  <circle cx="93" cy="50" r="2.5" fill="black"/>
+  <circle cx="107" cy="50" r="2.5" fill="black"/>
 
-  <!-- 羊鼻子 -->
-  <ellipse cx="160" cy="80" rx="8" ry="5" fill="#555"/>
-
-  <!-- 羊腿 -->
-  <rect x="70" y="120" width="10" height="25" rx="4" fill="#333"/>
-  <rect x="90" y="120" width="10" height="25" rx="4" fill="#333"/>
-  <rect x="115" y="120" width="10" height="25" rx="4" fill="#333"/>
-  <rect x="135" y="120" width="10" height="25" rx="4" fill="#333"/>
-
-  <!-- 羊蹄子 -->
-  <rect x="70" y="142" width="10" height="6" rx="2" fill="#555"/>
-  <rect x="90" y="142" width="10" height="6" rx="2" fill="#555"/>
-  <rect x="115" y="142" width="10" height="6" rx="2" fill="#555"/>
-  <rect x="135" y="142" width="10" height="6" rx="2" fill="#555"/>
+  <!-- 绵羊腿 -->
+  <rect x="80" y="115" width="8" height="20" rx="3" fill="#333"/>
+  <rect x="112" y="115" width="8" height="20" rx="3" fill="#333"/>
 </svg>

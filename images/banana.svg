@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
+
+  <!-- 香蕉主体 - 弯曲形状 -->
+  <path d="M 60 100 Q 100 40 140 90 Q 145 100 140 110 Q 100 70 60 110 Q 55 105 60 100" fill="#FFD700"/>
+
+  <!-- 香蕉高光 -->
+  <path d="M 70 95 Q 100 55 130 85" stroke="#FFEC8B" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- 香蕉顶部 -->
+  <ellipse cx="60" cy="105" rx="8" ry="12" fill="#228B22" transform="rotate(-30 60 105)"/>
+  <path d="M 55 100 L 50 90" stroke="#228B22" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 香蕉底部 -->
+  <circle cx="140" cy="100" r="4" fill="#8B4513"/>
+
+  <!-- 香蕉纹理 -->
+  <path d="M 80 85 Q 85 90 90 85" stroke="#DAA520" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 100 75 Q 105 80 110 75" stroke="#DAA520" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 120 80 Q 125 85 130 80" stroke="#DAA520" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- 小香蕉 -->
+  <path d="M 150 110 Q 160 90 170 105 Q 172 110 170 115 Q 160 100 150 120 Q 148 118 150 110" fill="#FFD700"/>
+  <ellipse cx="150" cy="115" rx="4" ry="6" fill="#228B22" transform="rotate(-20 150 115)"/>
+</svg>

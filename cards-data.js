@@ -322,6 +322,96 @@ const cardsData = [
   audioSentenceFile: 'audio/nest_sentence.mp3'
  },
 
+ // === 新增单词 ===
+ {
+  letter: 'b',
+  word: 'bird',
+  phonetic: '/b<span class="long-vowel">ɜː</span>/',
+  sentence: 'A bird can fly.',
+  image: 'images/bird.svg',
+  audioWord: 'bird',
+  audioSentence: 'A bird can fly',
+  audioWordFile: 'audio/bird_word.mp3',
+  audioSentenceFile: 'audio/bird_sentence.mp3'
+ },
+ {
+  letter: 'b',
+  word: 'banana',
+  phonetic: '/b<span class="vowel">ə</span>/',
+  sentence: 'A banana is yellow.',
+  image: 'images/banana.svg',
+  audioWord: 'banana',
+  audioSentence: 'A banana is yellow',
+  audioWordFile: 'audio/banana_word.mp3',
+  audioSentenceFile: 'audio/banana_sentence.mp3'
+ },
+ {
+  letter: 'c',
+  word: 'car',
+  phonetic: '/k<span class="long-vowel">ɑː</span>/',
+  sentence: 'A car goes fast.',
+  image: 'images/car.svg',
+  audioWord: 'car',
+  audioSentence: 'A car goes fast',
+  audioWordFile: 'audio/car_word.mp3',
+  audioSentenceFile: 'audio/car_sentence.mp3'
+ },
+ {
+  letter: 'a',
+  word: 'ant',
+  phonetic: '/<span class="vowel">æ</span>/',
+  sentence: 'An ant is small.',
+  image: 'images/ant.svg',
+  audioWord: 'ant',
+  audioSentence: 'An ant is small',
+  audioWordFile: 'audio/ant_word.mp3',
+  audioSentenceFile: 'audio/ant_sentence.mp3'
+ },
+ {
+  letter: 't',
+  word: 'tiger',
+  phonetic: '/t<span class="vowel">aɪ</span>/',
+  sentence: 'A tiger is big.',
+  image: 'images/tiger.svg',
+  audioWord: 'tiger',
+  audioSentence: 'A tiger is big',
+  audioWordFile: 'audio/tiger_word.mp3',
+  audioSentenceFile: 'audio/tiger_sentence.mp3'
+ },
+ {
+  letter: 'r',
+  word: 'rabbit',
+  phonetic: '/r<span class="vowel">æ</span>/',
+  sentence: 'A rabbit hops.',
+  image: 'images/rabbit.svg',
+  audioWord: 'rabbit',
+  audioSentence: 'A rabbit hops',
+  audioWordFile: 'audio/rabbit_word.mp3',
+  audioSentenceFile: 'audio/rabbit_sentence.mp3'
+ },
+ {
+  letter: 'm',
+  word: 'monkey',
+  phonetic: '/m<span class="vowel">ʌ</span>/',
+  sentence: 'A monkey climbs.',
+  image: 'images/monkey.svg',
+  audioWord: 'monkey',
+  audioSentence: 'A monkey climbs',
+  audioWordFile: 'audio/monkey_word.mp3',
+  audioSentenceFile: 'audio/monkey_sentence.mp3'
+ },
+ {
+  letter: 's',
+  word: 'star',
+  phonetic: '/st<span class="long-vowel">ɑː</span>/',
+  sentence: 'A star shines.',
+  image: 'images/star.svg',
+  audioWord: 'star',
+  audioSentence: 'A star shines',
+  audioWordFile: 'audio/star_word.mp3',
+  audioSentenceFile: 'audio/star_sentence.mp3'
+ },
+
  // === 其他类 ===
  {
   letter: 'v',

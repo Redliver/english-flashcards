@@ -1,41 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
   <!-- 背景 -->
-  <rect width="200" height="150" fill="#FFE4B5"/>
-  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#90EE90"/>
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
   <!-- 狗身体 -->
-  <ellipse cx="100" cy="100" rx="45" ry="35" fill="#8B4513"/>
+  <ellipse cx="100" cy="95" rx="45" ry="30" fill="#D2691E"/>
 
   <!-- 狗头 -->
-  <circle cx="100" cy="55" r="38" fill="#8B4513"/>
+  <circle cx="100" cy="55" r="35" fill="#D2691E"/>
 
   <!-- 狗耳朵 -->
-  <ellipse cx="65" cy="40" rx="15" ry="25" fill="#654321"/>
-  <ellipse cx="135" cy="40" rx="15" ry="25" fill="#654321"/>
+  <ellipse cx="70" cy="50" rx="12" ry="20" fill="#8B4513"/>
+  <ellipse cx="130" cy="50" rx="12" ry="20" fill="#8B4513"/>
 
   <!-- 狗眼睛 -->
-  <circle cx="85" cy="50" r="8" fill="white"/>
-  <circle cx="115" cy="50" r="8" fill="white"/>
-  <circle cx="86" cy="50" r="4" fill="black"/>
-  <circle cx="116" cy="50" r="4" fill="black"/>
-  <circle cx="87" cy="49" r="1.5" fill="white"/>
-  <circle cx="117" cy="49" r="1.5" fill="white"/>
+  <circle cx="90" cy="50" r="6" fill="white"/>
+  <circle cx="110" cy="50" r="6" fill="white"/>
+  <circle cx="91" cy="50" r="3" fill="black"/>
+  <circle cx="111" cy="50" r="3" fill="black"/>
 
   <!-- 狗鼻子 -->
-  <ellipse cx="100" cy="68" rx="12" ry="10" fill="#333"/>
+  <ellipse cx="100" cy="65" rx="10" ry="7" fill="black"/>
 
   <!-- 狗嘴巴 -->
-  <path d="M100,78 L100,85 M88,85 Q100,95 112,85" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 100 72 Q 90 80 85 75" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 100 72 Q 110 80 115 75" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
 
   <!-- 狗舌头 -->
-  <ellipse cx="100" cy="90" rx="8" ry="12" fill="#FF69B4"/>
+  <ellipse cx="100" cy="78" rx="6" ry="8" fill="#FF69B4"/>
 
   <!-- 狗腿 -->
-  <rect x="70" y="120" width="12" height="25" rx="5" fill="#8B4513"/>
-  <rect x="90" y="120" width="12" height="25" rx="5" fill="#8B4513"/>
-  <rect x="108" y="120" width="12" height="25" rx="5" fill="#8B4513"/>
-  <rect x="125" y="120" width="12" height="25" rx="5" fill="#8B4513"/>
+  <rect x="75" y="115" width="12" height="20" rx="6" fill="#D2691E"/>
+  <rect x="113" y="115" width="12" height="20" rx="6" fill="#D2691E"/>
 
   <!-- 狗尾巴 -->
-  <path d="M145,100 Q175,90 170,60" stroke="#8B4513" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 145 85 Q 165 70 160 50" stroke="#D2691E" stroke-width="10" fill="none" stroke-linecap="round"/>
 </svg>

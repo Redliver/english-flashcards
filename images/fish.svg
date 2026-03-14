@@ -1,47 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 水下 -->
- <rect width="200" height="150" fill="#006994"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 水波纹 -->
- <ellipse cx="50" cy="30" rx="40" ry="10" fill="#4FB3D9" opacity="0.3"/>
- <ellipse cx="150" cy="40" rx="50" ry="12" fill="#4FB3D9" opacity="0.3"/>
- <ellipse cx="100" cy="130" rx="60" ry="15" fill="#4FB3D9" opacity="0.2"/>
+  <!-- 气泡 -->
+  <circle cx="50" cy="50" r="5" fill="white" opacity="0.6"/>
+  <circle cx="60" cy="35" r="3" fill="white" opacity="0.5"/>
+  <circle cx="150" cy="45" r="4" fill="white" opacity="0.6"/>
+  <circle cx="165" cy="60" r="6" fill="white" opacity="0.5"/>
 
- <!-- 气泡 -->
- <circle cx="30" cy="100" r="5" fill="#E0FFFF" opacity="0.6"/>
- <circle cx="45" cy="85" r="3" fill="#E0FFFF" opacity="0.5"/>
- <circle cx="170" cy="110" r="4" fill="#E0FFFF" opacity="0.6"/>
- <circle cx="160" cy="90" r="2" fill="#E0FFFF" opacity="0.4"/>
+  <!-- 鱼身体 -->
+  <ellipse cx="100" cy="80" rx="50" ry="30" fill="#FF8C00"/>
 
- <!-- 小鱼 -->
- <ellipse cx="40" cy="70" rx="20" ry="12" fill="#FFA500"/>
- <polygon points="20,70 10,60 10,80" fill="#FFA500"/>
- <circle cx="50" cy="68" r="3" fill="#333"/>
- <path d="M35,75 Q40,78 45,75" stroke="#FF8C00" stroke-width="1" fill="none"/>
+  <!-- 鱼尾巴 -->
+  <polygon points="50,80 25,60 25,100" fill="#FF8C00"/>
 
- <!-- 大鱼主体 -->
- <ellipse cx="120" cy="75" r="50" ry="30" fill="#FF6B6B"/>
+  <!-- 鱼鳍 -->
+  <path d="M 100 50 L 85 35 L 115 35 Z" fill="#FF6347"/>
+  <path d="M 90 80 L 75 95 L 105 95 Z" fill="#FF6347"/>
 
- <!-- 鱼尾 -->
- <path d="M170,75 L195,50 L195,100 Z" fill="#FF5252"/>
- <path d="M175,70 L190,60 L190,90 L175,80 Z" fill="#FF8A80" opacity="0.5"/>
+  <!-- 鱼眼睛 -->
+  <circle cx="135" cy="70" r="8" fill="white"/>
+  <circle cx="137" cy="70" r="4" fill="black"/>
+  <circle cx="138" cy="68" r="2" fill="white"/>
 
- <!-- 鱼鳍 -->
- <path d="M100,45 Q115,30 130,45" fill="#FF5252"/>
- <path d="M110,105 Q120,115 130,105" fill="#FF5252"/>
-
- <!-- 鱼眼睛 -->
- <circle cx="85" cy="70" r="10" fill="white"/>
- <circle cx="87" cy="70" r="5" fill="#333"/>
- <circle cx="89" cy="68" r="2" fill="white"/>
-
- <!-- 鱼嘴巴 -->
- <path d="M65,80 Q75,85 65,90" stroke="#C62828" stroke-width="2" fill="none"/>
-
- <!-- 鱼鳞 -->
- <circle cx="100" cy="65" r="8" fill="#FF8A80" opacity="0.4"/>
- <circle cx="115" cy="60" r="7" fill="#FF8A80" opacity="0.4"/>
- <circle cx="130" cy="65" r="6" fill="#FF8A80" opacity="0.4"/>
- <circle cx="105" cy="80" r="7" fill="#FF8A80" opacity="0.4"/>
- <circle cx="120" cy="85" r="6" fill="#FF8A80" opacity="0.4"/>
+  <!-- 鱼鳞 -->
+  <path d="M 80 70 Q 85 75 90 70" stroke="#FF6347" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 95 70 Q 100 75 105 70" stroke="#FF6347" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 110 70 Q 115 75 120 70" stroke="#FF6347" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 87 82 Q 92 87 97 82" stroke="#FF6347" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 102 82 Q 107 87 112 82" stroke="#FF6347" stroke-width="2" fill="none" stroke-linecap="round"/>
 </svg>

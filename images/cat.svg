@@ -1,40 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
   <!-- 背景 -->
-  <rect width="200" height="150" fill="#E6E6FA"/>
-  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#98FB98"/>
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
   <!-- 猫身体 -->
-  <ellipse cx="100" cy="100" rx="40" ry="35" fill="#FFA500"/>
+  <ellipse cx="100" cy="95" rx="40" ry="30" fill="#FFA500"/>
 
   <!-- 猫头 -->
-  <circle cx="100" cy="60" r="35" fill="#FFA500"/>
+  <circle cx="100" cy="55" r="30" fill="#FFA500"/>
 
   <!-- 猫耳朵 -->
-  <polygon points="70,35 65,10 90,30" fill="#FFA500"/>
-  <polygon points="130,35 135,10 110,30" fill="#FFA500"/>
-  <polygon points="72,32 68,15 85,28" fill="#FFB6C1"/>
-  <polygon points="128,32 132,15 115,28" fill="#FFB6C1"/>
+  <path d="M 75 40 L 70 15 L 90 35 Z" fill="#FFA500"/>
+  <path d="M 125 40 L 130 15 L 110 35 Z" fill="#FFA500"/>
+  <path d="M 75 38 L 72 20 L 85 35 Z" fill="#FFB6C1"/>
+  <path d="M 125 38 L 128 20 L 115 35 Z" fill="#FFB6C1"/>
 
   <!-- 猫眼睛 -->
-  <ellipse cx="85" cy="55" rx="10" ry="12" fill="white"/>
-  <ellipse cx="115" cy="55" rx="10" ry="12" fill="white"/>
-  <circle cx="87" cy="55" r="6" fill="#32CD32"/>
-  <circle cx="117" cy="55" r="6" fill="#32CD32"/>
-  <circle cx="88" cy="54" r="2" fill="black"/>
-  <circle cx="118" cy="54" r="2" fill="black"/>
+  <ellipse cx="90" cy="55" rx="6" ry="8" fill="#228B22"/>
+  <ellipse cx="110" cy="55" rx="6" ry="8" fill="#228B22"/>
+  <circle cx="91" cy="53" r="2" fill="white"/>
+  <circle cx="111" cy="53" r="2" fill="white"/>
 
   <!-- 猫鼻子 -->
-  <polygon points="100,70 95,78 105,78" fill="#FF69B4"/>
+  <polygon points="100,62 96,68 104,68" fill="#FF69B4"/>
 
   <!-- 猫嘴巴 -->
-  <path d="M100,78 L100,85 M90,85 Q100,95 110,85" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 100 68 Q 95 75 90 72" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 100 68 Q 105 75 110 72" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
 
   <!-- 猫胡须 -->
-  <line x1="70" y1="75" x2="40" y2="70" stroke="#333" stroke-width="1"/>
-  <line x1="70" y1="80" x2="40" y2="82" stroke="#333" stroke-width="1"/>
-  <line x1="130" y1="75" x2="160" y2="70" stroke="#333" stroke-width="1"/>
-  <line x1="130" y1="80" x2="160" y2="82" stroke="#333" stroke-width="1"/>
+  <line x1="70" y1="60" x2="50" y2="55" stroke="black" stroke-width="1" stroke-linecap="round"/>
+  <line x1="70" y1="65" x2="50" y2="65" stroke="black" stroke-width="1" stroke-linecap="round"/>
+  <line x1="130" y1="60" x2="150" y2="55" stroke="black" stroke-width="1" stroke-linecap="round"/>
+  <line x1="130" y1="65" x2="150" y2="65" stroke="black" stroke-width="1" stroke-linecap="round"/>
 
   <!-- 猫尾巴 -->
-  <path d="M140,110 Q170,100 165,70" stroke="#FFA500" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 60 95 Q 40 80 45 60" stroke="#FFA500" stroke-width="12" fill="none" stroke-linecap="round"/>
 </svg>

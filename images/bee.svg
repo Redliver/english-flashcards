@@ -1,41 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
   <!-- 背景 -->
   <rect width="200" height="150" fill="#87CEEB"/>
-  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#98FB98"/>
-  <circle cx="30" cy="40" r="15" fill="white" opacity="0.8"/>
-  <circle cx="170" cy="60" r="12" fill="white" opacity="0.8"/>
-  <circle cx="50" cy="100" r="10" fill="white" opacity="0.8"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
   <!-- 蜜蜂身体 -->
-  <ellipse cx="100" cy="75" rx="35" ry="25" fill="#FFD700"/>
+  <ellipse cx="100" cy="80" rx="35" ry="25" fill="#FFD700"/>
 
   <!-- 蜜蜂条纹 -->
-  <path d="M75,55 Q80,75 75,95" stroke="black" stroke-width="6" fill="none"/>
-  <path d="M95,52 Q100,75 95,98" stroke="black" stroke-width="6" fill="none"/>
-  <path d="M115,55 Q120,75 115,95" stroke="black" stroke-width="6" fill="none"/>
+  <rect x="85" y="60" width="8" height="40" rx="2" fill="black"/>
+  <rect x="96" y="58" width="8" height="44" rx="2" fill="black"/>
+  <rect x="107" y="60" width="8" height="40" rx="2" fill="black"/>
 
-  <!-- 蜜蜂翅膀 -->
-  <ellipse cx="70" cy="50" rx="25" ry="15" fill="white" opacity="0.7"/>
-  <ellipse cx="70" cy="100" rx="25" ry="15" fill="white" opacity="0.7"/>
-
-  <!-- 蜜蜂头部 -->
-  <circle cx="145" cy="75" r="18" fill="#333"/>
+  <!-- 蜜蜂头 -->
+  <circle cx="100" cy="45" r="18" fill="#FFD700"/>
 
   <!-- 蜜蜂眼睛 -->
-  <circle cx="152" cy="70" r="5" fill="white"/>
-  <circle cx="154" cy="70" r="2.5" fill="black"/>
+  <circle cx="95" cy="42" r="4" fill="black"/>
+  <circle cx="105" cy="42" r="4" fill="black"/>
+  <circle cx="96" cy="41" r="1.5" fill="white"/>
+  <circle cx="106" cy="41" r="1.5" fill="white"/>
 
   <!-- 蜜蜂触角 -->
-  <path d="M155,60 Q165,45 160,35" stroke="#333" stroke-width="2" fill="none"/>
-  <path d="M160,35 Q165,30 170,32" stroke="#333" stroke-width="2" fill="none"/>
-  <path d="M155,90 Q165,105 160,115" stroke="#333" stroke-width="2" fill="none"/>
-  <path d="M160,115 Q165,120 170,118" stroke="#333" stroke-width="2" fill="none"/>
+  <line x1="92" y1="30" x2="80" y2="15" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="108" y1="30" x2="120" y2="15" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="80" cy="15" r="3" fill="black"/>
+  <circle cx="120" cy="15" r="3" fill="black"/>
+
+  <!-- 蜜蜂翅膀 -->
+  <ellipse cx="75" cy="65" rx="20" ry="12" fill="#E0FFFF" opacity="0.8"/>
+  <ellipse cx="125" cy="65" rx="20" ry="12" fill="#E0FFFF" opacity="0.8"/>
+  <ellipse cx="78" cy="60" rx="15" ry="10" fill="#E0FFFF" opacity="0.6"/>
+  <ellipse cx="122" cy="60" rx="15" ry="10" fill="#E0FFFF" opacity="0.6"/>
 
   <!-- 蜜蜂刺 -->
-  <polygon points="65,75 45,75 55,85" fill="#333"/>
-
-  <!-- 蜜蜂腿 -->
-  <line x1="85" y1="95" x2="75" y2="115" stroke="#333" stroke-width="3"/>
-  <line x1="100" y1="100" x2="100" y2="120" stroke="#333" stroke-width="3"/>
-  <line x1="115" y1="95" x2="125" y2="115" stroke="#333" stroke-width="3"/>
+  <polygon points="100,105 95,120 105,120" fill="black"/>
 </svg>

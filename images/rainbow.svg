@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 - 雨后蓝天 -->
- <rect width="200" height="150" fill="#87CEEB"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 云朵 -->
- <ellipse cx="30" cy="25" rx="20" ry="12" fill="white" opacity="0.9"/>
- <ellipse cx="50" cy="20" rx="18" ry="10" fill="white" opacity="0.9"/>
- <ellipse cx="170" cy="30" rx="25" ry="15" fill="white" opacity="0.9"/>
- <ellipse cx="150" cy="25" rx="20" ry="12" fill="white" opacity="0.9"/>
+  <!-- 彩虹 -->
+  <path d="M 30 120 Q 100 20 170 120" stroke="#FF0000" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 30 120 Q 100 20 170 120" stroke="#FF8C00" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 30 120 Q 100 20 170 120" stroke="#FFD700" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 30 120 Q 100 20 170 120" stroke="#228B22" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 30 120 Q 100 20 170 120" stroke="#0000FF" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 30 120 Q 100 20 170 120" stroke="#9370DB" stroke-width="2" fill="none" stroke-linecap="round"/>
 
- <!-- 彩虹 - 外到内 -->
- <path d="M20,150 Q100,20 180,150" stroke="#FF0000" stroke-width="12" fill="none"/>
- <path d="M25,150 Q100,30 175,150" stroke="#FF7F00" stroke-width="10" fill="none"/>
- <path d="M30,150 Q100,40 170,150" stroke="#FFFF00" stroke-width="10" fill="none"/>
- <path d="M35,150 Q100,50 165,150" stroke="#00FF00" stroke-width="10" fill="none"/>
- <path d="M40,150 Q100,60 160,150" stroke="#0000FF" stroke-width="10" fill="none"/>
- <path d="M45,150 Q100,70 155,150" stroke="#4B0082" stroke-width="10" fill="none"/>
- <path d="M50,150 Q100,80 150,150" stroke="#9400D3" stroke-width="10" fill="none"/>
+  <!-- 云朵 -->
+  <ellipse cx="40" cy="115" rx="20" ry="12" fill="white"/>
+  <ellipse cx="55" cy="110" rx="18" ry="14" fill="white"/>
+  <ellipse cx="25" cy="110" rx="15" ry="10" fill="white"/>
 
- <!-- 彩虹底部 -->
- <ellipse cx="100" cy="150" rx="70" ry="10" fill="#87CEEB"/>
+  <ellipse cx="160" cy="115" rx="20" ry="12" fill="white"/>
+  <ellipse cx="175" cy="110" rx="18" ry="14" fill="white"/>
+  <ellipse cx="145" cy="110" rx="15" ry="10" fill="white"/>
 </svg>

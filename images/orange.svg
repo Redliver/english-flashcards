@@ -1,19 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
- <!-- 背景 -->
- <rect width="200" height="150" fill="#FFFACD"/>
- <ellipse cx="100" cy="135" rx="80" ry="15" fill="#90EE90"/>
+  <!-- 背景 -->
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
- <!-- 橘子主体 -->
- <circle cx="100" cy="80" r="50" fill="#FF8C00"/>
- <circle cx="85" cy="65" r="18" fill="#FFA500" opacity="0.4"/>
- <circle cx="115" cy="85" r="12" fill="#FF7F50" opacity="0.3"/>
+  <!-- 橙子 -->
+  <circle cx="100" cy="80" r="45" fill="#FFA500"/>
 
- <!-- 橘子顶部 -->
- <ellipse cx="100" cy="35" rx="15" ry="8" fill="#228B22"/>
- <path d="M100,35 L100,25" stroke="#228B22" stroke-width="3"/>
+  <!-- 橙子纹理 -->
+  <circle cx="100" cy="80" r="40" fill="none" stroke="#FF8C00" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="40" x2="100" y2="45" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="115" x2="100" y2="120" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="80" x2="65" y2="80" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
+  <line x1="135" y1="80" x2="140" y2="80" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"/>
 
- <!-- 橘子脉络 -->
- <path d="M100,35 Q85,60 80,90" stroke="#E67300" stroke-width="2" fill="none"/>
- <path d="M100,35 Q115,60 120,90" stroke="#E67300" stroke-width="2" fill="none"/>
- <path d="M100,35 Q100,55 100,95" stroke="#E67300" stroke-width="2" fill="none"/>
+  <!-- 橙子高光 -->
+  <ellipse cx="85" cy="65" rx="10" ry="15" fill="#FFD700" opacity="0.4"/>
+
+  <!-- 橙子梗 -->
+  <ellipse cx="100" cy="38" rx="6" ry="4" fill="#228B22"/>
+  <path d="M 100 36 Q 105 25 110 20" stroke="#228B22" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="110" cy="20" rx="8" ry="4" fill="#228B22" transform="rotate(-20 110 20)"/>
 </svg>

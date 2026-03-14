@@ -1,56 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
   <!-- 背景 -->
   <rect width="200" height="150" fill="#87CEEB"/>
-  <ellipse cx="100" cy="130" rx="90" ry="20" fill="#90EE90"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
 
   <!-- 奶牛身体 -->
-  <ellipse cx="100" cy="95" rx="55" ry="40" fill="white"/>
+  <ellipse cx="100" cy="90" rx="50" ry="35" fill="white"/>
 
   <!-- 奶牛斑点 -->
-  <ellipse cx="70" cy="85" rx="15" ry="12" fill="#333"/>
-  <ellipse cx="120" cy="100" rx="18" ry="14" fill="#333"/>
-  <ellipse cx="85" cy="115" rx="12" ry="10" fill="#333"/>
-  <ellipse cx="130" cy="80" rx="10" ry="8" fill="#333"/>
+  <ellipse cx="80" cy="80" rx="15" ry="12" fill="black"/>
+  <ellipse cx="120" cy="95" rx="12" ry="10" fill="black"/>
+  <ellipse cx="100" cy="105" rx="10" ry="8" fill="black"/>
 
   <!-- 奶牛头 -->
-  <rect x="125" y="40" width="55" height="50" rx="15" fill="white"/>
+  <ellipse cx="100" cy="50" rx="30" ry="25" fill="white"/>
+
+  <!-- 奶牛头部斑点 -->
+  <ellipse cx="85" cy="40" rx="8" ry="6" fill="black"/>
+  <ellipse cx="115" cy="55" rx="6" ry="5" fill="black"/>
 
   <!-- 奶牛耳朵 -->
-  <ellipse cx="130" cy="35" rx="12" ry="8" fill="white"/>
-  <ellipse cx="130" cy="35" rx="6" ry="4" fill="#FFB6C1"/>
-  <ellipse cx="175" cy="35" rx="12" ry="8" fill="white"/>
-  <ellipse cx="175" cy="35" rx="6" ry="4" fill="#FFB6C1"/>
+  <ellipse cx="70" cy="45" rx="10" ry="6" fill="#FFB6C1"/>
+  <ellipse cx="130" cy="45" rx="10" ry="6" fill="#FFB6C1"/>
 
   <!-- 奶牛角 -->
-  <path d="M135,40 Q130,20 140,15" stroke="#F5DEB3" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M170,40 Q180,20 175,15" stroke="#F5DEB3" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 80 30 L 75 15" stroke="#F5DEB3" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 120 30 L 125 15" stroke="#F5DEB3" stroke-width="5" stroke-linecap="round"/>
 
   <!-- 奶牛眼睛 -->
-  <circle cx="145" cy="55" r="6" fill="black"/>
-  <circle cx="165" cy="55" r="6" fill="black"/>
-  <circle cx="146" cy="54" r="2" fill="white"/>
-  <circle cx="166" cy="54" r="2" fill="white"/>
+  <circle cx="90" cy="45" r="5" fill="black"/>
+  <circle cx="110" cy="45" r="5" fill="black"/>
+  <circle cx="91" cy="44" r="2" fill="white"/>
+  <circle cx="111" cy="44" r="2" fill="white"/>
 
   <!-- 奶牛鼻子 -->
-  <ellipse cx="152" cy="75" rx="22" ry="15" fill="#FFB6C1"/>
-
-  <!-- 奶牛鼻孔 -->
-  <circle cx="145" cy="75" r="4" fill="#333"/>
-  <circle cx="162" cy="75" r="4" fill="#333"/>
+  <ellipse cx="100" cy="62" rx="15" ry="10" fill="#FFB6C1"/>
+  <circle cx="95" cy="62" r="3" fill="#FF69B4"/>
+  <circle cx="105" cy="62" r="3" fill="#FF69B4"/>
 
   <!-- 奶牛腿 -->
-  <rect x="55" y="120" width="15" height="25" rx="5" fill="white"/>
-  <rect x="75" y="120" width="15" height="25" rx="5" fill="white"/>
-  <rect x="110" y="120" width="15" height="25" rx="5" fill="white"/>
-  <rect x="130" y="120" width="15" height="25" rx="5" fill="white"/>
-
-  <!-- 奶牛蹄子 -->
-  <rect x="55" y="140" width="15" height="8" rx="3" fill="#333"/>
-  <rect x="75" y="140" width="15" height="8" rx="3" fill="#333"/>
-  <rect x="110" y="140" width="15" height="8" rx="3" fill="#333"/>
-  <rect x="130" y="140" width="15" height="8" rx="3" fill="#333"/>
+  <rect x="75" y="115" width="10" height="20" rx="3" fill="white"/>
+  <rect x="115" y="115" width="10" height="20" rx="3" fill="white"/>
+  <rect x="78" y="118" width="6" height="10" rx="2" fill="black"/>
+  <rect x="118" y="118" width="6" height="10" rx="2" fill="black"/>
 
   <!-- 奶牛尾巴 -->
-  <path d="M45,95 Q25,100 20,120" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
-  <circle cx="18" cy="122" r="6" fill="#333"/>
+  <path d="M 150 85 Q 165 80 165 95" stroke="black" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="165" cy="98" rx="4" ry="6" fill="black"/>
 </svg>

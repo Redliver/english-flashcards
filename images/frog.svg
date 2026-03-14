@@ -1,32 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
   <!-- 背景 -->
-  <rect width="200" height="150" fill="#98FB98"/>
-  <ellipse cx="100" cy="135" rx="90" ry="15" fill="#228B22"/>
+  <rect width="200" height="150" fill="#87CEEB"/>
+  <ellipse cx="100" cy="135" rx="80" ry="12" fill="#90EE90"/>
+
+  <!-- 荷叶 -->
+  <ellipse cx="100" cy="125" rx="70" ry="15" fill="#228B22"/>
+  <path d="M 100 125 L 100 110" stroke="#228B22" stroke-width="2" stroke-linecap="round"/>
 
   <!-- 青蛙身体 -->
-  <ellipse cx="100" cy="100" rx="50" ry="35" fill="#32CD32"/>
+  <ellipse cx="100" cy="85" rx="40" ry="30" fill="#32CD32"/>
 
-  <!-- 青蛙头部 -->
-  <ellipse cx="100" cy="60" rx="45" ry="30" fill="#32CD32"/>
+  <!-- 青蛙头 -->
+  <ellipse cx="100" cy="55" rx="35" ry="25" fill="#32CD32"/>
 
   <!-- 青蛙眼睛 -->
-  <circle cx="70" cy="40" r="18" fill="white" stroke="#228B22" stroke-width="3"/>
-  <circle cx="130" cy="40" r="18" fill="white" stroke="#228B22" stroke-width="3"/>
-  <circle cx="72" cy="40" r="8" fill="black"/>
-  <circle cx="132" cy="40" r="8" fill="black"/>
-  <circle cx="74" cy="38" r="3" fill="white"/>
-  <circle cx="134" cy="38" r="3" fill="white"/>
+  <circle cx="85" cy="40" r="12" fill="#32CD32"/>
+  <circle cx="115" cy="40" r="12" fill="#32CD32"/>
+  <circle cx="85" cy="38" r="8" fill="white"/>
+  <circle cx="115" cy="38" r="8" fill="white"/>
+  <circle cx="85" cy="38" r="4" fill="black"/>
+  <circle cx="115" cy="38" r="4" fill="black"/>
+  <circle cx="86" cy="36" r="1.5" fill="white"/>
+  <circle cx="116" cy="36" r="1.5" fill="white"/>
 
   <!-- 青蛙嘴巴 -->
-  <path d="M60,70 Q100,85 140,70" stroke="#228B22" stroke-width="3" fill="none"/>
+  <path d="M 85 65 Q 100 75 115 65" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- 青蛙腮红 -->
+  <ellipse cx="75" cy="60" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
+  <ellipse cx="125" cy="60" rx="5" ry="3" fill="#FFB6C1" opacity="0.6"/>
 
   <!-- 青蛙腿 -->
-  <ellipse cx="55" cy="125" rx="20" ry="12" fill="#32CD32"/>
-  <ellipse cx="145" cy="125" rx="20" ry="12" fill="#32CD32"/>
-
-  <!-- 青蛙脚 -->
-  <path d="M40,130 L35,140 L45,140 Z" fill="#32CD32"/>
-  <path d="M50,132 L50,142 L60,142 Z" fill="#32CD32"/>
-  <path d="M140,130 L135,140 L145,140 Z" fill="#32CD32"/>
-  <path d="M150,132 L150,142 L160,142 Z" fill="#32CD32"/>
+  <ellipse cx="65" cy="95" rx="12" ry="8" fill="#32CD32"/>
+  <ellipse cx="135" cy="95" rx="12" ry="8" fill="#32CD32"/>
 </svg>
